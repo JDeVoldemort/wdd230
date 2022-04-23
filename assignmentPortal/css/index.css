@@ -67,7 +67,7 @@ footer {
 .p2 {
   grid-row: 2;
   font-size: 0.95em;
-  color: rgb(209, 214, 135);
+  color: rgb(245, 241, 22);
 }
 
 @media screen and (max-width: 550px) {
