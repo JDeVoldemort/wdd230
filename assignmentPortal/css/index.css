@@ -52,7 +52,7 @@ li {
   padding: 0.3em;
 }
 footer {
-  display: grid;
+  /* display: grid; */
   background-color: rgb(30, 124, 93);
   padding: 1em;
   color: white;
