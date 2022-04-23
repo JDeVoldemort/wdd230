@@ -9,7 +9,7 @@ header {
   display: grid;
   grid-template-columns: 110px auto;
 
-  grid-template-rows: 1;
+  grid-template-rows: auto;
   background-color: rgb(30, 124, 93);
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -49,6 +49,7 @@ main {
   border: inset;
 }
 footer {
+    display: grid;
   background-color: rgb(30, 124, 93);
   padding: 1em;
   color: white;
@@ -57,7 +58,11 @@ footer {
   text-align: center;
   font-size: 1em;
 }
+footer p1 {
+    grid-row: 1;
+}
 footer p2 {
+grid-row: 2;
   font-size: 0.95em;
   color: rgb(209, 214, 135);
 }
