@@ -48,8 +48,11 @@ main {
 
   border: inset;
 }
+li {
+  padding: 0.3em;
+}
 footer {
-    display: grid;
+  display: grid;
   background-color: rgb(30, 124, 93);
   padding: 1em;
   color: white;
@@ -58,11 +61,11 @@ footer {
   text-align: center;
   font-size: 1em;
 }
-footer p1 {
-    grid-row: 1;
+.p1 {
+  grid-row: 1;
 }
-footer p2 {
-grid-row: 2;
+.p2 {
+  grid-row: 2;
   font-size: 0.95em;
   color: rgb(209, 214, 135);
 }
