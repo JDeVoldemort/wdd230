@@ -12,10 +12,13 @@ try {
     hc: "h24",
   };
   document.querySelector("#currentyear").textContent = year;
-  let lastmodif = new Date(document.lastModified).toLocaleDateString("en-US", options);
+  let lastmodif = new Date(document.lastModified).toLocaleDateString(
+    "en-US",
+    options
+  );
   document.querySelector("#currentdate").textContent = lastmodif;
-//   document.getElementById("currentdate").textContent =
-//     new Date().toLocaleDateString("en-US", options);
+  //   document.getElementById("currentdate").textContent =
+  //     new Date().toLocaleDateString("en-US", options);
 } catch (e) {
   alert("error Browser does not support locale");
 }
