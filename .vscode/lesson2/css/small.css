@@ -1,0 +1,63 @@
+html {
+    background-color: antiquewhite;
+  }
+  body {
+    display: grid;
+    max-width: 700px;
+    margin: 2em;
+    font-family: "Amiko", sans-serif;
+    font-family: "Love Ya Like A Sister", cursive;
+  }
+  header,
+  footer {
+    background-color: rgb(30, 124, 93);
+  }
+  header {
+    display: grid;
+    /* grid-template-columns: 110px auto; */
+    align-items: center;
+    padding: 1rem;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  main {
+    padding: 1em;
+    max-width: 100%;
+    
+  }
+.block1, .block2, .block3 {
+    background-color: darkgrey;
+    max-width: 100%;
+    padding: 1rem;
+
+    margin-right: 1rem ;
+  }
+  h3,h4,h5 {
+      font-size: 1.5Sem;
+      border-radius: .5em .5em 0 0;
+      background-color: rgb(30, 124, 93) ;
+
+      padding: .8rem;
+}
+footer {
+    /* display: grid; */
+  
+    color: white;
+  
+    text-align: center;
+    padding: 1rem;
+  }
+  /* .p1 {
+    grid-row: 1;
+  } */
+  .p2 {
+    font-size: 0.95em;
+    color: rgb(252, 248, 7);
+  }
