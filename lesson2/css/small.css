@@ -12,13 +12,15 @@ footer {
   background-color: rgb(30, 124, 93);
 }
 main {
+
   display: grid;
   padding: 1em;
   max-width: 100%;
-  grid-gap: 1fr;
+  grid-gap: 1em;
 }
 header {
-  /* display: grid; */
+  display: grid;
+  grid-row: 1/2;
   /* grid-template-columns: 110px auto; */
   align-content: center;
   /* justify-content: center; */
@@ -60,7 +62,7 @@ h5 {
 .hblock1,
 .hblock2,
 .hblock3 {
-  padding: 1fr;
+  padding: 1rem;
 }
 .hblock1 {
   grid-column: 2/3;
