@@ -1,0 +1,79 @@
+html {
+    background-color: antiquewhite;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    max-width: 900px;
+    margin: 1em;
+    font-family: "Amiko", sans-serif;
+    font-family: "Love Ya Like A Sister", cursive;
+    text-align: center;
+  }
+  header,
+  footer {
+    background-color: rgb(30, 124, 93);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+  main {
+
+    display: grid;
+    /* grid-template-rows: auto; */
+    padding: 1em;
+    max-width: 100%;
+    grid-gap: 1em;
+  }
+  header {
+    /* display: grid; */
+    /* grid-row: 1/2; */
+    /* grid-template-columns: 110px auto; */
+    align-content: center;
+    text-align: center;
+    /* justify-content: center; */
+    padding: 1em;
+  }
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav div {
+     flex: 1 1 auto;}
+
+nav a {
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: rgb(128, 195, 27);
+    color: black;
+    
+}
+h1 {
+    font-size: 2rem;
+}
+h2,h3,h4 {
+    padding: .5em;
+    font-size: .9rem;
+    max-width: 80%;
+}
+
+footer {
+    color: antiquewhite;
+
+  text-align: center;
+  padding: 1rem;
+}

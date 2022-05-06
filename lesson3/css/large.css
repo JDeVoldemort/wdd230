@@ -1,0 +1,10 @@
+@media (min-width: 72.5em) {
+
+	nav a {
+		font-size: 1.4rem;
+	}
+    h2,h3,h4 {
+        /* padding: 1em; */
+        font-size: 1.5rem;
+    } 
+}
