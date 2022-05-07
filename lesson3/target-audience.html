@@ -9,39 +9,83 @@
       content="Commerce design Target Audience page for Jim DeMorduant in WDD 230: Web Frontend Development at BYU-Idaho: lesson 3"
     />
     <title>Jim DeMordaunt lesson 3 Web Design Target Audience</title>
-    <link href="../css/normalize.css" rel="stylesheet">
-    <link href="css/small.css" rel="stylesheet">
-    <link href="css/medium.css" rel="stylesheet">
-    <link href="css/large.css" rel="stylesheet">
+    <link href="../css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>Gravity Falls Chamber of Commerce</h1>
       <h2>Jim DeMordaunt</h2>
       <nav>
-          <div><a href="./">Home</a></div>
-          <div><a href="target-audience.html">Target Audience</a></div>
-          <div><a href="color-scheme.html">Color Scheme</a></div>
-          <div><a href="typography.html">Typography</a></div>
-
+        <div><a href="./">Home</a></div>
+        <div><a href="target-audience.html">Target Audience</a></div>
+        <div><a href="color-scheme.html">Color Scheme</a></div>
+        <div><a href="typography.html">Typography</a></div>
       </nav>
-
     </header>
     <main>
-        <h3>Target Audience</h3>
+      <section class="target">
+        <h3 class="heading">Target Audience</h3>
+        <ul>
+          <li>
+            Who: Local business owners, local leaders, and other community
+            members
+          </li>
+          <li>Age: 12 to 100</li>
+          <li>Income: All Income levels included</li>
+          <li>
+            Motivation: Improve distribution of knowledge of our community's
+            history and ongoing story. Seek to get more involvement, and promote
+            local business.
+          </li>
+        </ul>
+      </section>
+      <section class="persona">
+        <h3 class="heading">Persona 1: Jeramiah Puddlefoot</h3>
+        <!-- <img class='persona1' src="" alt=""> -->
 
-
+        <ul class="persona1">
+          <li>Occupation: Runs local Newspaper</li>
+          <li>Demographics: 49 years old. Married, Father of 4, Bachelors in Creative Writing</li>
+          <li>Goals and motivation for using the site: Hopes to keep up on local events and businesses for his newspaper. </li>
+          <li>Social: Likes hiking in the woods with family, plays golf on weekends, tries to keep his mother up to date on local events. </li>
+          <li>Technology: up to date on current trends. Uses a desktop at work, and mostly his phone at home. </li>
+          <li>Quote: "Nobody makes time for the newspaper anymore!"</li>
+        </ul>
+        <h4 class="heading">Persona 2: Stan Grunkle</h4>
+        <!-- <img class="persona2" src="" alt=""> -->
+        <ul class="persona2">
+          <li>Occupation: Local tourist shop owner</li>
+          <li>Demographics and Education: 69 years old. Bachelors in Performing Arts. </li>
+          <li>Goals and motivation for using the site: He just discovered the GFC of Commerce has a website and wants to see his shop is represented. </li>
+          <li>Social: A Grouchy individual with occasional visiting relatives. He has been a fixture in this town for a long time. </li>
+          <li>Technology: Rarely uses technology, but recently got a dated laptop and a smartphone.</li>
+          <li>Quote: "What is a text message?"</li>
+        </ul>
+      </section>
+      <section class="Scenarios">
+          <h5 class="heading">Scenarios:</h5>
+      <ul class="Scenarios">
+          <li>What events are happening next week?</li>
+          <li>Are there summer activities to keep my kids busy?</li>
+          <li>What businesses are opening soon in Gravity Falls?</li>
+          <li>What is the best place to get lunch?</li>
+          <li>Who can I contact to get more information about the Park closure?</li>
+      </ul>
+    </section>
     </main>
-<footer>
-    <p class="p1">
+    <footer>
+      <p class="p1">
         &copy;<span id="currentyear"></span> 🏮 Jim DeMordaunt 🏮 Idaho
       </p>
       <p class="p2">Last Updated: <span id="currentdate"></span></p>
 
-
-        <script src="../js/currentdate.js"></script>
-</footer>
-
-</body>
-
+      <script src="../js/currentdate.js"></script>
+    </footer>
+  </body>
 </html>

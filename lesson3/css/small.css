@@ -9,7 +9,7 @@ html {
   body {
     max-width: 900px;
     margin: 1em;
-    font-family: "Amiko", sans-serif;
+    font-family: "Leto", sans-serif;
     font-family: "Love Ya Like A Sister", cursive;
     text-align: center;
   }
@@ -25,11 +25,16 @@ html {
   main {
 
     display: grid;
-    /* grid-template-rows: auto; */
+
+    margin: 1em;
     padding: 1em;
     max-width: 100%;
     grid-gap: 1em;
+    text-align: left;
   }
+img {
+    padding: 1rem;
+}
   header {
     /* display: grid; */
     /* grid-row: 1/2; */
@@ -54,26 +59,72 @@ nav a {
     text-align: center;
     padding: 12px;
     text-decoration: none;
+    font-family: "Leto", sans-serif;
 
 }
 
 nav a:hover {
     background-color: rgb(128, 195, 27);
     color: black;
-    
+
+}
+.heading {
+    background-color: rgb(128, 195, 27);
 }
 h1 {
     font-size: 2rem;
 }
-h2,h3,h4 {
-    padding: .5em;
-    font-size: .9rem;
-    max-width: 80%;
+
+h2,h3,h4,h5 {
+    padding: .7em;
+    font-size: 1rem;
+    /* max-width: 80%; */
+}
+main p {
+    font-family: "amiko", sans-serif;
+    padding: 1em;
+}
+.greend {
+    background-color: rgb(30, 124, 93);
+    color: antiquewhite;
+}
+.greenl {
+    background-color: rgb(128, 195, 27);
 }
 
+.antique {
+    background-color: antiquewhite;
+}
+.black {
+    color: antiquewhite;
+    background-color:black;
+}
+li {
+    padding: .9rem;
+    font-family: "amiko", sans-serif;
+}
+.sister {
+    font-family: "Love Ya Like A Sister", sans-serif;
+    font: bold;
+    font-size: 1em;
+}
+.headingpad {
+    padding: .7em;
+    font-size: 0.9rem;
+}
+.logo {
+    display: block;
+    justify-items: center;
+}
+.purpose {
+    text-align: left;
+}
 footer {
     color: antiquewhite;
-
+    font-family: "amiko", sans-serif;
   text-align: center;
   padding: 1rem;
+}
+footer p {
+    padding: .8rem;
 }
