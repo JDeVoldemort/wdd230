@@ -7,7 +7,7 @@ html {
     box-sizing: border-box;
   }
   body {
-    max-width: 900px;
+    /* max-width: 900px; */
     margin: 1em;
     font-family: "Leto", sans-serif;
     font-family: "Love Ya Like A Sister", cursive;
@@ -15,12 +15,9 @@ html {
   }
   header,
   footer {
-    background-color: rgb(30, 124, 93);
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    padding: 12px;
+    background-color: rgb(8, 112, 18);
+
+
   }
   main {
 
@@ -36,12 +33,8 @@ img {
     padding: 1rem;
 }
   header {
-    /* display: grid; */
-    /* grid-row: 1/2; */
-    /* grid-template-columns: 110px auto; */
-    align-content: center;
-    text-align: center;
-    /* justify-content: center; */
+
+
     padding: 1em;
   }
 
@@ -85,7 +78,7 @@ main p {
     padding: 1em;
 }
 .greend {
-    background-color: rgb(30, 124, 93);
+    background-color: #087012;
     color: antiquewhite;
 }
 .greenl {
