@@ -9,7 +9,13 @@ try {
     hour: "2-digit",
     minute: "2-digit",
     second: "2-digit",
-    hc: "h24",
+    hourCycle: "h24",
+  };
+  let optionsB = {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
   };
   document.querySelector("#currentyear").textContent = year;
   let lastmodif = new Date(document.lastModified).toLocaleDateString(
@@ -17,8 +23,8 @@ try {
     options
   );
   document.querySelector("#currentdate").textContent = lastmodif;
-  //   document.getElementById("currentdate").textContent =
-  //     new Date().toLocaleDateString("en-US", options);
+  document.querySelector("#todaydate").textContent =
+    new Date().toLocaleDateString("en-UK", optionsB);
 } catch (e) {
   alert("error Browser does not support locale");
 }
