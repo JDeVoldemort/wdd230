@@ -1,3 +1,11 @@
 @media (min-width: 72.5em) {
-
+    nav {
+        grid-column: 3;
+        grid-row: 1/2;
+    }
+    #menubtn {
+        display: none;
+    }
+    nav ul {
+        display: flex;
 }
