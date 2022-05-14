@@ -1,178 +1,158 @@
 html {
-    background-color: antiquewhite;
-  }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    /* max-width: 900px; */
-    margin: .6em;
-    font-family: "Leto", sans-serif;
-    font-family: "Love Ya Like A Sister", cursive;
-    text-align: center;
-  }
-  header,
-  footer {
-    background-color: rgb(8, 112, 18);
+body {
+  /* max-width: 900px; */
+  margin: 0.6em;
+  font-family: "Leto", sans-serif;
+  font-family: "Love Ya Like A Sister", cursive;
+  text-align: center;
+}
+header,
+footer {
+  background-color: rgb(8, 112, 18);
+}
+main {
+  display: grid;
 
-
-  }
-  main {
-
-    display: grid;
-
-    margin: 1em;
-    /* padding: 1em; */
-    max-width: 100%;
-    grid-gap: .6em;
-    text-align: left;
-  }
+  margin: 1em;
+  /* padding: 1em; */
+  max-width: 100%;
+  grid-gap: 0.6em;
+  text-align: left;
+}
 /* img {
     padding: 1rem;
 } */
-  header {
-display: grid;
-grid-gap: .4rem;
-padding: .8em;
-align-items: center;
-/* justify-content: space-between; */
-text-align: left;
+header {
+  display: grid;
+  grid-gap: 0.4rem;
+  padding: 0.8em;
+  align-items: center;
+  /* justify-content: space-between; */
+  text-align: left;
 
-
-    padding: .4em;
-  }
+  padding: 0.4em;
+}
 h1 {
-    display: flex;
-    font-size: 1em;
-    margin: 0;
+  display: flex;
+  font-size: 1em;
+  margin: 0;
 }
 h2 {
-    font-size: .7em;
+  font-size: 0.7em;
 }
 .logo {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    align-items: center;
-    /* margin-left: 1rem; */
+  grid-row: 1/2;
+  grid-column: 1/2;
+  align-items: center;
+  /* margin-left: 1rem; */
 }
 .logo img {
-
-    width: 40px;
-    max-height: auto;
+  width: 40px;
+  max-height: auto;
 }
 .titles {
-    
-    grid-row: 1/2;
-    /* grid-column: 2/3; */
-    /* flex-direction: column; */
-    /* margin-left: .4rem; */
+  grid-row: 1/2;
+  /* grid-column: 2/3; */
+  /* flex-direction: column; */
+  /* margin-left: .4rem; */
 }
 .social {
-    grid-row: 1/2;
-/* grid-column: 2/3; */
-justify-self: right;
+  grid-row: 1/2;
+  /* grid-column: 2/3; */
+  justify-self: right;
 }
 .social a svg {
+  width: 25px;
 
-   width: 25px;
-
-   height: auto;
+  height: auto;
 }
 #dateHeader {
-    grid-row: 2/3;
-    grid-column: 1/5;
-    text-align: center;
+  grid-row: 2/3;
+  grid-column: 1/5;
+  text-align: center;
 }
-  nav a {
-    display: block;
-    color: antiquewhite;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-family: "Leto", sans-serif;
-
+nav a {
+  display: block;
+  color: antiquewhite;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-family: "Leto", sans-serif;
 }
 
 nav a:hover {
-    background-color: rgb(128, 195, 27);
-    color: black;
-
+  background-color: rgb(128, 195, 27);
+  color: black;
 }
-nav{
-    display: flex;
-    justify-self: right;
+nav {
+  display: flex;
+  justify-self: right;
 
-    grid-row: 1/2;
+  grid-row: 1/2;
 }
- #menubtn{
-
-    /* margin:.2rem 3vw; */
-    background-color: transparent;
-    border: none;
-    font-size: 2rem;
-    
-    
-
+#menubtn {
+  /* margin:.2rem 3vw; */
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
 }
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
 }
 
 nav ul.open {
-    display: block;
+  display: block;
 }
 
 nav ul li a {
-    display: block;
-    text-decoration: none;
-
+  display: block;
+  text-decoration: none;
 }
-
 
 main p {
-    display: flex;
-    border: 1px solid;
-    padding: .4em;
-    /* Spadding-bottom: 3em; */
-    height: 10em;
-    
+  display: flex;
+  border: 1px solid;
+  padding: 0.4em;
+  /* Spadding-bottom: 3em; */
+  height: 10em;
 }
 .spotlight {
-    
-    border: 1px solid;
-    padding: .1rem;
-    justify-content: center;
-
+  border: 1px solid;
+  padding: 0.1rem;
+  justify-content: center;
 }
 footer {
-    padding:.4rem;
+  padding: 0.4rem;
 }
 .contact {
-    font-size: .7em;
+  font-size: 0.7em;
 }
 .footerlogo img {
-    width: 70px;
+  width: 70px;
 }
 .footer2 {
-    border-top: 1px solid;
-    padding: .7rem;
-    font-size: .7em;
+  border-top: 1px solid;
+  padding: 0.7rem;
+  font-size: 0.7em;
 }
 .join {
-    display: none;
+  display: none;
 }
 
 .spotlight3 {
-    display: none;
+  display: none;
 }
-
-
 
 /* #menubtn span:nth-child(1){display: block;}
 #menubtn span:nth-child(2){display: none;}
