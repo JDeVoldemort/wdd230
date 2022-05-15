@@ -41,7 +41,5 @@
     display: flex;
     /* grid-row: 1/2; */
   }
-  .footerlogo img {
-    align-items: left;
-  }
+
 }

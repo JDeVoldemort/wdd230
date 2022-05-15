@@ -57,7 +57,7 @@ h2 {
 }
 .logo img {
   width: 40px;
-  max-height: auto;
+
 }
 .titles {
   grid-row: 1/2;
