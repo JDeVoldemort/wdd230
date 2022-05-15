@@ -16,7 +16,8 @@ body {
 }
 header,
 footer {
-  background-color: rgb(8, 112, 18);
+  /* background-color: rgb(8, 112, 18); */
+  background-color: rgb(30, 124, 93);
 }
 main {
   display: grid;
@@ -95,47 +96,43 @@ nav a:hover {
 nav {
   display: flex;
   justify-self: right;
-color: antiquewhite;
+  color: antiquewhite;
   grid-row: 1/2;
 }
 .menubtn {
-  margin:.2rem 3vw;
+  margin: 0.2rem 3vw;
   background-color: transparent;
   border: none;
   font-size: 2rem;
   /* width: .55%; */
-
 }
-
 
 .navigate {
-    list-style: none;
-    
-
+  list-style: none;
 }
 .navigate li:first-child {
-    display: block;
+  display: block;
 }
 .navigate li {
-    display: none;
+  display: none;
 }
 
 .navigate a {
-    display: block;
-    text-decoration: none;
-    transition: .2s;
-    -webkit-transition: .2s;
-    -moz-transition: .2s;
-    -ms-transition: .2s;
-    -o-transition: .2s;
+  display: block;
+  text-decoration: none;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
 }
 
 .navigate a:hover {
-    background-color:  rgb(128, 195, 27);
-    color: black;
+  background-color: rgb(128, 195, 27);
+  color: black;
 }
 .respond li {
-    display: block;
+  display: block;
 }
 
 /* nav ul {
@@ -169,6 +166,11 @@ main p {
 footer {
   padding: 0.4rem;
 }
+
+.contact2 a {
+  text-decoration: none;
+  color: inherit;
+}
 .contact {
   font-size: 0.7em;
 }
@@ -187,8 +189,3 @@ footer {
 .spotlight3 {
   display: none;
 }
-
-/* #menubtn span:nth-child(1){display: block;}
-#menubtn span:nth-child(2){display: none;}
-#menubtn.open span:nth-child(1) {display: none;}
-#menubtn.open span:nth-child(2) {display: block;} */
