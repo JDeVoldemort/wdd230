@@ -95,30 +95,64 @@ nav a:hover {
 nav {
   display: flex;
   justify-self: right;
-
+color: antiquewhite;
   grid-row: 1/2;
 }
-#menubtn {
-  /* margin:.2rem 3vw; */
+.menubtn {
+  margin:.2rem 3vw;
   background-color: transparent;
   border: none;
   font-size: 2rem;
+  /* width: .55%; */
+
 }
-nav ul {
+
+
+.navigate {
+    list-style: none;
+    
+
+}
+.navigate li:first-child {
+    display: block;
+}
+.navigate li {
+    display: none;
+}
+
+.navigate a {
+    display: block;
+    text-decoration: none;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+.navigate a:hover {
+    background-color:  rgb(128, 195, 27);
+    color: black;
+}
+.respond li {
+    display: block;
+}
+
+/* nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: none;
-}
+  /* display: none; */
+/* } */
 
-nav ul.open {
+/* nav ul.open {
   display: block;
 }
 
 nav ul li a {
   display: block;
   text-decoration: none;
-}
+} */
 
 main p {
   display: flex;

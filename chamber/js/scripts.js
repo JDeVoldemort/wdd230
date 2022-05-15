@@ -1,7 +1,8 @@
-function toggleMenu() {
-  document.querySelector("#menubtn").classList.toggle("open");
-  document.querySelector("#navigate").classList.toggle("open");
-}
+// function toggleMenu() {
+  const menubtn = document.querySelector(".menubtn");
+  const navigate = document.querySelector(".navigate")
+// }
 // const y = document.querySelector('#menubtn')
 
-document.querySelector("#menubtn").addEventListener("click", toggleMenu);
+menubtn.addEventListener("click", () => {navigate.classList.toggle('respond')}, false);
+window.onesize = () => {if (window.innerWidth >891) navigate.classList.remove('respond')};
