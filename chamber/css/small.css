@@ -135,22 +135,6 @@ nav {
   display: block;
 }
 
-/* nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  /* display: none; */
-/* } */
-
-/* nav ul.open {
-  display: block;
-}
-
-nav ul li a {
-  display: block;
-  text-decoration: none;
-} */
-
 main p {
   display: flex;
   border: 1px solid;
@@ -166,16 +150,29 @@ main p {
 footer {
   padding: 0.4rem;
 }
+/* .footermap {
+    justify-items:space-between;
+} */
+footer h5 {
+  padding: 1rem;
+}
+/* .contact1 {
+  padding: 1.4rem;
 
+} */
 .contact2 a {
   text-decoration: none;
   color: inherit;
+  /* padding: 1.4rem; */
+  align-content: right;
 }
 .contact {
   font-size: 0.7em;
+  /* padding: 1.4rem; */
 }
 .footerlogo img {
   width: 70px;
+  /* padding: 1.4rem; */
 }
 .footer2 {
   border-top: 1px solid;
