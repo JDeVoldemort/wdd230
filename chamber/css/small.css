@@ -140,6 +140,8 @@ nav {
 }
 .respond li {
   display: block;
+  float: bottom;
+
 }
 
 main p {
