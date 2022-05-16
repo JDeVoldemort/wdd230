@@ -22,16 +22,19 @@
   </head>
   <body>
     <header>
-      <picture class="logo">
-        <img
-          src="./images/gfclogo.jpg"
-          alt="Gravity Falls Chamber of Commerce Logo"
-        />
-      </picture>
-      <section class="titles">
-        <h1>Gravity Falls</h1>
-        <h2>Chamber of Commerce</h2>
+      <section class="logotitle">
+        <picture class="logo">
+          <img
+            src="./images/gfclogo.jpg"
+            alt="Gravity Falls Chamber of Commerce Logo"
+          />
+        </picture>
+        <section class="titles">
+          <h1>Gravity Falls</h1>
+          <h2>Chamber of Commerce</h2>
+        </section>
       </section>
+      <!-- <section class="headright"> -->
       <div class="social">
         <a href="https://www.facebook.com"
           ><?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
@@ -88,6 +91,7 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+      <!-- </section> -->
       <div id="dateHeader"><span id="todaydate"></span></div>
     </header>
     <main>
@@ -121,14 +125,14 @@
           <a href="#"><span id="map"></span> 📍 Location Map</a>
         </section>
       </section>
-      <section class="footer2">
+      <div class="footer2">
         <p class="p1">
           &copy;<span id="currentyear"></span> 🏮 Gravity Falls Chamber 🏮
         </p>
         <p id="name">Jim DeMordaunt</p>
         <p>WDD 230 Project</p>
         <p class="p2">Last Updated: <span id="currentdate"></span></p>
-      </section>
+      </div>
       <script src="./js/scripts.js"></script>
       <script src="../js/currentdate.js"></script>
     </footer>
