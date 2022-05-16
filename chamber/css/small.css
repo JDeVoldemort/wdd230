@@ -18,6 +18,7 @@ header,
 footer {
   /* background-color: rgb(8, 112, 18); */
   background-color: rgb(30, 124, 93);
+  color: rgb(241, 246, 251);
 }
 main {
   display: grid;
