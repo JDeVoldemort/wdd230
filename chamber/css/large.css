@@ -14,11 +14,15 @@
     display: flex;
   }
   .navigate li {
-    display: block;
+    display: flex;
     flex: 1 1 auto;
   }
   .navigate li:first-child {
     display: none;
+  }
+
+  .respond li {
+    line-height: inherit;
   }
   main .hero {
     grid-row: 1/3;

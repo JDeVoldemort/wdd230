@@ -110,6 +110,11 @@ nav {
   justify-self: right;
   color: antiquewhite;
   grid-row: 1/2;
+  height: 90px;
+  font-size: 1.5rem;
+  background-color: rgb(30, 124, 93);
+  z-index: 2;
+
 }
 .menubtn {
   margin: 0.2rem 3vw;
@@ -121,6 +126,7 @@ nav {
 
 .navigate {
   list-style: none;
+
 }
 .navigate li:first-child {
   display: block;
@@ -138,9 +144,15 @@ nav {
   background-color: rgb(128, 195, 27);
   color: black;
 }
+
 .respond li {
   display: block;
+  background-color: rgb(30, 124, 93);
   float: bottom;
+  line-height: 2;
+
+
+
 
 }
 
