@@ -130,6 +130,7 @@ nav {
 }
 .navigate li:first-child {
   display: block;
+  border: none;
 }
 .navigate li {
   display: none;
@@ -138,6 +139,7 @@ nav {
 .navigate a {
   display: block;
   text-decoration: none;
+  padding: .3rem;
 }
 
 .navigate a:hover {
@@ -149,7 +151,7 @@ nav {
   display: block;
   background-color: rgb(30, 124, 93);
   float: bottom;
-  line-height: 2;
+  line-height: 1.4;
 
 
 
