@@ -14,7 +14,7 @@ button.addEventListener('click', () =>{
         listText.textContent = chap
 
         listItem.appendChild(listBtn)
-        listBtn.textContent = 'Delete';
+        listBtn.textContent = '❌';
         list.appendChild(listItem);
 
         listBtn.addEventListener('click', () => {

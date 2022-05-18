@@ -1,4 +1,17 @@
 @media (min-width: 34.5em) {
+  .logo img {
+    width: 70px;
+  }
+
+h1 {
+  font-size-adjust: 2.2em;
+}
+h2 {
+  font-size: 1.6em;
+}
+#dateHeader {
+  font-size: 1.3em;
+}
   main .hero {
     grid-row: 1/2;
     grid-column: 1/3;

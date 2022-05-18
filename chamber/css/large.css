@@ -9,7 +9,15 @@
   /* nav ul {
     display: flex;
   } */
-
+h1 {
+  font-size-adjust: 2.2em;
+}
+h2 {
+  font-size: 1.6em;
+}
+#dateHeader {
+  font-size: 1.5em;
+}
   .navigate {
     display: flex;
   }
