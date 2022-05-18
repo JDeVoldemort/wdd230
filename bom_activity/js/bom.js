@@ -3,7 +3,7 @@ const button = document.querySelector('#adchap');
 const list = document.querySelector('.list');
 
 button.addEventListener('click', () =>{
-    if (inputs.value !='') {
+    if (inputs.value.length >= 6) {
         const listItem = document.createElement('li');
         const listText = document.createElement('span');
         const listBtn = document.createElement('button');
