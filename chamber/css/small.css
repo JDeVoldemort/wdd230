@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  /* max-width: 900px; */
+  max-width: 800px;
   margin: 0.6em;
   font-family: "Leto", sans-serif;
   font-family: "Love Ya Like A Sister", cursive;
@@ -159,17 +159,32 @@ nav {
 
 }
 
-main p {
+main div {
   display: flex;
   border: 1px solid;
   padding: 0.4em;
   /* Spadding-bottom: 3em; */
   height: 10em;
 }
+.hero {
+  display: grid;
+  padding: 0;
+  border: none;
+  position:relative;
+}
+.hero img {
+  position:relative;
+  max-width:100%;
+
+
+
+  /* width: 100% auto; */
+}
 .spotlight {
   border: 1px solid;
   padding: 0.1rem;
   justify-content: center;
+  height: 10em;
 }
 footer {
   padding: 0.4rem;

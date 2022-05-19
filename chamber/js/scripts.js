@@ -14,3 +14,12 @@ menubtn.addEventListener(
 window.onesize = () => {
   if (window.innerWidth > 891) navigate.classList.remove("respond");
 };
+// window.addEventListener 
+const heroImg = document.querySelector('#heroimg');
+
+window.twosize = () => {
+  if (window.innerWidth > 891) 
+    heroImg.removeAttribute('src');
+    heroImg.setAttribute('src', 'images/hero.jpg');
+  
+}
