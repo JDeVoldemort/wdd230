@@ -115,7 +115,6 @@ nav {
   font-size: 1.5rem;
   background-color: rgb(30, 124, 93);
   z-index: 2;
-
 }
 .menubtn {
   margin: 0.2rem 3vw;
@@ -127,7 +126,6 @@ nav {
 
 .navigate {
   list-style: none;
-
 }
 .navigate li:first-child {
   display: block;
@@ -140,7 +138,7 @@ nav {
 .navigate a {
   display: block;
   text-decoration: none;
-  padding: .3rem;
+  padding: 0.3rem;
 }
 
 .navigate a:hover {
@@ -153,10 +151,6 @@ nav {
   background-color: rgb(30, 124, 93);
   float: bottom;
   line-height: 1.4;
-
-
-
-
 }
 
 main div {
@@ -167,24 +161,34 @@ main div {
   height: 10em;
 }
 .hero {
-  display: grid;
+  /* display: grid; */
   padding: 0;
   border: none;
-  position:relative;
+  position: relative;
 }
 .hero img {
-  position:relative;
-  max-width:100%;
-
-
+  position: relative;
+  max-width: 100%;
 
   /* width: 100% auto; */
 }
 .spotlight {
+  display: flex;
+  flex-direction: column;
   border: 1px solid;
   padding: 0.1rem;
-  justify-content: center;
+  /* justify-content: center; */
   height: 10em;
+}
+.spotlight1,
+.spotlight2 {
+  display: grid;
+  /* position: relative; */
+}
+.spotlight1 img,
+.spotlight2 img,
+.spotlight3 img {
+  max-width: 60%;
 }
 footer {
   padding: 0.4rem;
@@ -222,6 +226,7 @@ footer h3 {
   display: none;
 }
 
-.spotlight3 {
+.spotlight3,
+.spotlight3 img {
   display: none;
 }
