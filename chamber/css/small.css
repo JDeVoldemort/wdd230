@@ -158,13 +158,14 @@ main div {
   border: 1px solid;
   padding: 0.4em;
   /* Spadding-bottom: 3em; */
-  height: 10em;
+  /* height: 10em; */
 }
 .hero {
   /* display: grid; */
   padding: 0;
   border: none;
   position: relative;
+  /* background-image: image-set('images/'); */
 }
 .hero img {
   position: relative;
@@ -178,7 +179,7 @@ main div {
   border: 1px solid;
   padding: 0.1rem;
   /* justify-content: center; */
-  height: 10em;
+  /* height: 10em; */
 }
 .spotlight1,
 .spotlight2 {
@@ -189,7 +190,13 @@ main div {
 .spotlight2 img,
 .spotlight3 img {
   max-width: 60%;
+  position: relative;
 }
+/* .news p {
+  max-width: 95%;
+  max-height: 95%;
+  text-overflow: ellipsis;
+} */
 footer {
   padding: 0.4rem;
 }
@@ -226,7 +233,12 @@ footer h3 {
   display: none;
 }
 
-.spotlight3,
-.spotlight3 img {
+.spotlight3 {
   display: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }

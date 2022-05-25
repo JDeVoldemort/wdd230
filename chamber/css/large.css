@@ -69,6 +69,5 @@
   .spotlight3 {
     display: grid;
     grid-row: 3/4;
-    grid-column: inherit;
   }
 }
