@@ -31,4 +31,4 @@ const inviteBanner = document.querySelector('.invitebanner');
 
   } else {
     inviteBanner.style.display = 'none';
-  }
+  };
