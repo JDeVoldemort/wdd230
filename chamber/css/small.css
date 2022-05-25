@@ -167,11 +167,28 @@ main div {
   position: relative;
   /* background-image: image-set('images/'); */
 }
-.hero img {
+#heroimg img {
   position: relative;
   max-width: 100%;
 
   /* width: 100% auto; */
+}
+.herojoin {
+  position: absolute;
+}
+.herojoin, .joinlink {
+  background-color: rgb(30, 124, 93);
+  padding: 1rem;
+}
+.herojoin:hover, .joinlink:hover {
+  background-color: rgb(128, 195, 27);
+  color: black;
+  text-decoration: none;
+}
+.herojoin a, .joinlink a {
+  text-decoration: none;
+  color: white;
+
 }
 .spotlight {
   display: flex;
