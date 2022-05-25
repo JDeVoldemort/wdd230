@@ -160,6 +160,9 @@ main div {
   /* Spadding-bottom: 3em; */
   /* height: 10em; */
 }
+main p {
+  padding: 6px;
+}
 .hero {
   /* display: grid; */
   padding: 0;
