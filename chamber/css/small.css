@@ -180,6 +180,8 @@ main p {
 }
 .herojoin {
   position: absolute;
+  bottom: 8px;
+  right: 5px;
 }
 .herojoin, .joinlink {
   background-color: rgb(30, 124, 93);
