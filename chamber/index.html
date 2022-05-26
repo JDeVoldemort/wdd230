@@ -22,7 +22,11 @@
     <link rel="shortcut icon" href="faviconwoodp.ico" />
   </head>
   <body>
-    <div class="invitebanner"><p class="invitebanner">Come Join us for the chamber meet and greet Wednesday at 7:00 p.m.</p></div>
+    <div class="invitebanner">
+      <p class="invitebanner">
+        Come Join us for the chamber meet and greet Wednesday at 7:00 p.m.
+      </p>
+    </div>
     <header>
       <section class="logotitle">
         <picture class="logo">
@@ -99,27 +103,35 @@
     <main class="clearfix">
       <div class="hero">
         <picture id="heroimg">
-        <img
-          src="images/herosmall.jpg"
-          alt="Gravity Falls Sunset"
-          srcset="images/herosmall.jpg 200w"
-          srcset="images/herosmall.jpg 400w"
-          srcset="images/heroimg.jpg 893px"
+          <source srcset="images/hero.jpg 893w" media="(min-width: 969px)" />
+          <source
+            srcset="images/herosmall.jpg 400w"
+            media="(min-width: 400px)"
           />
+          <source
+            srcset="images/herosmall.jpg 200w"
+            media="(min-width: 200px)"
+          />
+
+          <img src="images/herosmall.jpg" alt="Gravity Falls Sunset" />
         </picture>
         <div class="herojoin"><a href="#">Join the Chamber</a></div>
       </div>
-      <div class="event">
+      <div class="event op">
         <img
           class="eventimg"
           src="images/b_cheap_fair.jpg"
           alt="cheap fair event"
         />
-        <p id="eventinfo">Join us for the Cheapest fair money can rent. July 7th 9am-till all the rides are broken. </p>
+        <p id="eventinfo">
+          Join us for the Cheapest fair money can rent. July 7th 9am-till all
+          the rides are broken.
+        </p>
       </div>
-      <div class="weather">
-        <p id="weatherheader">Weather</p> 
-        <?xml version="1.0" ?><svg id="weathericon"
+      <div class="weather op">
+        <p id="weatherheader">Weather</p>
+        <?xml version="1.0" ?><svg
+          id="weathericon"
           viewBox="0 0 500 500"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -237,7 +249,7 @@
         <p id="windspu">2.4km/h</p>
         <p id="windchu">N/A</p>
       </div>
-      <div class="news">
+      <div class="news op">
         <h3 id="headline">News Release</h3>
         <p id="newsinfo">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi
@@ -247,7 +259,7 @@
         </p>
       </div>
 
-      <section class="spotlight">
+      <section class="spotlight op">
         <div class="spotlight1">
           <img
             class="spotlight1"
@@ -277,8 +289,12 @@
         </div>
       </section>
 
-      <div class="join"><div class="joinlink"><a href="#">Join Us</a></div>
-      <p>Find out how joining the Chamber of commerce can benefit your business</p></div>
+      <div class="join op">
+        <div class="joinlink"><a href="#">Join Us</a></div>
+        <p>
+          Find out how joining the Chamber of commerce can benefit your business
+        </p>
+      </div>
     </main>
     <footer>
       <section class="footermap">

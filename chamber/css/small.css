@@ -6,7 +6,9 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
-
+.op {
+  opacity: .95;
+}
 body {
   max-width: 900px;
   justify-content: center;
@@ -16,11 +18,12 @@ body {
   text-align: center;
 }
 header,
-footer {
+footer, .invitebanner {
   /* background-color: rgb(8, 112, 18); */
   background-color: rgb(30, 124, 93);
   color: rgb(241, 246, 251);
 }
+
 main {
   display: grid;
 
