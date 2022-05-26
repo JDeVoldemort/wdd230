@@ -28,7 +28,6 @@ const inviteBanner = document.querySelector('.invitebanner');
   if (current.getDay() == 3 || current.getDay() == 2){
     inviteBanner.style.display = "block";
     inviteBanner.style.padding = "1em";
-    inviteBanner.style.margin = "1em";
 
   } else {
     inviteBanner.style.display = "none";
