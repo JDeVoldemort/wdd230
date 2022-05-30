@@ -13,7 +13,7 @@ if (temper <= 50 && windspu > 3) {
   console.log(f);
   f = f.toPrecision(3);
   console.log(f);
-  windchu.textContent = `${f}℃`;
+  windchu.textContent = `${f}℉`;
 } else {
   f = "N/A";
   windchu.textContent = f;
