@@ -1,0 +1,32 @@
+body {
+  padding: 1em;
+  background-color: rgb(4, 157, 40);
+  color: white;
+}
+h1 {
+  text-align: center;
+  background-color: rgb(18, 113, 40);
+  padding: 2rem;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+  filter: blur(0);
+  transition: filter 1.7s;
+  -webkit-transition: filter 1.7s;
+  -moz-transition: filter 1.7s;
+  -ms-transition: filter 1.7s;
+  -o-transition: filter 1.7s;
+}
+
+img[data-src] {
+  filter: blur(0.4em);
+  -webkit-filter: blur(0.4em);
+}
