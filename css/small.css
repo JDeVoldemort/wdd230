@@ -4,7 +4,7 @@ html {
 body {
   display: grid;
   max-width: 700px;
-  margin: 2em;
+  margin: 2em auto;
   font-family: "Amiko", sans-serif;
   font-family: "Love Ya Like A Sister", cursive;
 }

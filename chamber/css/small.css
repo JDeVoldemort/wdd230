@@ -16,13 +16,19 @@ body {
   font-family: "Leto", sans-serif;
   font-family: "Love Ya Like A Sister", cursive;
   text-align: center;
+  margin: 2em auto;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 header,
-footer, .invitebanner {
+footer {
   /* background-color: rgb(8, 112, 18); */
   background-color: rgb(30, 124, 93);
   color: rgb(241, 246, 251);
 }
+/* .invitebanner {
+  display: none;
+} */
 
 main {
   display: grid;
