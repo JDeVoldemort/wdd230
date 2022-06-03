@@ -11,7 +11,7 @@ html {
   opacity: .95;
 }
 body {
-  max-width: 900px;
+  max-width: 950px;
   justify-content: center;
 
   font-family: "Leto", sans-serif;
@@ -32,7 +32,7 @@ footer {
 main {
   display: grid;
 
-  margin: 1em;
+  margin-top: 1em;
   /* padding: 1em; */
   max-width: 100%;
   grid-gap: 0.6em;
@@ -327,7 +327,10 @@ main p {
   display: grid;
   text-align: center;
 }
-
+.demo1 img, .demo2 img {
+  max-width: 280px;
+  height: auto;
+}
 footer {
   padding: 0.4rem;
 }

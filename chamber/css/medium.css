@@ -54,10 +54,7 @@
   main .weather {
     grid-row: 5/6;
   }
-  .demo1 img, .demo2 img {
-    /* max-width: 80%; */
-    height: auto;
-  }
+
   /* .gallery1 {
     grid-column: 2/3;
     grid-row: 1/2;

@@ -38,11 +38,11 @@
     grid-column: 2/4;
     height: 100%;
   }
-  main .event {
+  main .event, .demo1 {
     grid-row: 1/2;
     grid-column: 1/2;
   }
-  main .weather {
+  main .weather, .demo2{
     grid-row: 2/3;
     grid-column: 1/2;
   }
@@ -70,5 +70,25 @@
   .spotlight3 {
     display: grid;
     grid-row: 3/4;
+  }
+  /* .gallery1 {
+    grid-row: 1/2;
+
+  }  */
+  .gallerymid {
+    grid-column: 2/3;
+  }
+  .galleryright {
+    grid-column: 3/4;
+  }
+  .gallerytop {
+    grid-row: 1/2;
+  }
+  .gallerymidv {
+    grid-row: 2/3;
+  }
+  .bannerfoot {
+    grid-column:1/4;
+    text-align: center;
   }
 }
