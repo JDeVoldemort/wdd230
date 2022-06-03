@@ -33,6 +33,7 @@ main {
   display: grid;
 
   margin-top: 1em;
+  margin-bottom: 1em;
   /* padding: 1em; */
   max-width: 100%;
   grid-gap: 0.6em;
@@ -330,6 +331,9 @@ main p {
 .demo1 img, .demo2 img {
   max-width: 280px;
   height: auto;
+}
+.bannerfoot {
+  text-align: center;
 }
 footer {
   padding: 0.4rem;
