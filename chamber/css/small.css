@@ -1,4 +1,5 @@
 html {
+  background-image: url('../images/background.webp');
   background-color: antiquewhite;
 }
 * {
@@ -12,7 +13,7 @@ html {
 body {
   max-width: 900px;
   justify-content: center;
-  /* margin: 0.6em; */
+
   font-family: "Leto", sans-serif;
   font-family: "Love Ya Like A Sister", cursive;
   text-align: center;
@@ -20,15 +21,13 @@ body {
   margin-top: 0em;
   margin-bottom: 0em;
 }
+
 header,
 footer {
   /* background-color: rgb(8, 112, 18); */
   background-color: rgb(30, 124, 93);
   color: rgb(241, 246, 251);
 }
-/* .invitebanner {
-  display: none;
-} */
 
 main {
   display: grid;
@@ -39,13 +38,10 @@ main {
   grid-gap: 0.6em;
   text-align: left;
 }
-/* img {
-    padding: 1rem;
-} */
+
 header {
   display: grid;
   grid-gap: 0.4rem;
-
   align-items: center;
   justify-content: space-between;
   text-align: left;
@@ -168,7 +164,7 @@ main div {
   border: 1px solid;
   padding: 0.4em;
   /* padding-bottom: 3em; */
-  /* height: 10em; */
+
 }
 main p {
   padding: 6px;
@@ -181,6 +177,15 @@ main p {
   position: relative;
   /* background-image: image-set('images/'); */
 }
+.herop {
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  color: rgb(241, 246, 251);
+  
+  font-size: .8rem;
+  z-index: 2;
+}
 #heroimg img {
   position: relative;
   max-width: 100%;
@@ -189,12 +194,13 @@ main p {
 }
 .herojoin {
   position: absolute;
+  font-size: .7rem;
   bottom: 8px;
   right: 5px;
 }
-.herojoin, .joinlink {
+.herojoin, .joinlink, .herop {
   background-color: rgb(30, 124, 93);
-  padding: 1rem;
+  padding: .4rem;
   text-align: center;
 
 }
@@ -317,6 +323,11 @@ main p {
 
 }
 
+.gallery {
+  display: grid;
+  text-align: center;
+}
+
 footer {
   padding: 0.4rem;
 }
@@ -357,8 +368,8 @@ footer h3 {
   display: none;
 }
 
-.clearfix:after {
+/* .clearfix:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
