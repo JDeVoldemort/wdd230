@@ -332,6 +332,17 @@ main p {
   max-width: 280px;
   height: auto;
 }
+.gallery img {
+
+    height: auto;
+    filter: blur(0);
+    transition: filter 1.7s;
+  }
+  
+  img[data-src] {
+    filter: blur(0.4em);
+  }
+
 .bannerfoot {
   text-align: center;
 }
