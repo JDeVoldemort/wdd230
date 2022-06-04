@@ -1,5 +1,5 @@
 html {
-  background-image: url('../images/background.webp');
+  background-image: url("../images/background.webp");
   background-color: antiquewhite;
 }
 * {
@@ -8,7 +8,7 @@ html {
   box-sizing: border-box;
 }
 .op {
-  opacity: .95;
+  opacity: 0.95;
 }
 body {
   max-width: 950px;
@@ -165,7 +165,6 @@ main div {
   border: 1px solid;
   padding: 0.4em;
   /* padding-bottom: 3em; */
-
 }
 main p {
   padding: 6px;
@@ -183,8 +182,8 @@ main p {
   top: 8px;
   left: 5px;
   color: rgb(241, 246, 251);
-  
-  font-size: .8rem;
+
+  font-size: 0.8rem;
   z-index: 2;
 }
 #heroimg img {
@@ -195,25 +194,27 @@ main p {
 }
 .herojoin {
   position: absolute;
-  font-size: .7rem;
+  font-size: 0.7rem;
   bottom: 8px;
   right: 5px;
 }
-.herojoin, .joinlink, .herop {
+.herojoin,
+.joinlink,
+.herop {
   background-color: rgb(30, 124, 93);
-  padding: .4rem;
+  padding: 0.4rem;
   text-align: center;
-
 }
-.herojoin:hover, .joinlink:hover {
+.herojoin:hover,
+.joinlink:hover {
   background-color: rgb(128, 195, 27);
   color: black;
   text-decoration: none;
 }
-.herojoin a, .joinlink a {
+.herojoin a,
+.joinlink a {
   text-decoration: none;
   color: white;
-
 }
 .event {
   display: grid;
@@ -222,7 +223,7 @@ main p {
 .event img {
   grid-row: 1/2;
   grid-column: 1/2;
- justify-self: center;
+  justify-self: center;
 }
 #eventinfo {
   grid-row: 2/3;
@@ -297,18 +298,14 @@ main p {
 .slhead,
 .slhead,
 .slhead {
-
   grid-row: 2/3;
   grid-column: 1/2;
-
 }
 .slinfo,
 .slinfo,
 .slinfo {
-
   grid-row: 3/4;
   grid-column: 1/2;
-
 }
 .news {
   display: grid;
@@ -321,27 +318,26 @@ main p {
 #newsinfo {
   grid-row: 2/3;
   grid-column: 1/2;
-
 }
 
 .gallery {
   display: grid;
   text-align: center;
 }
-.demo1 img, .demo2 img {
+.demo1 img,
+.demo2 img {
   max-width: 280px;
   height: auto;
 }
 .gallery img {
+  height: auto;
+  filter: blur(0);
+  transition: filter 1.7s;
+}
 
-    height: auto;
-    filter: blur(0);
-    transition: filter 1.7s;
-  }
-  
-  img[data-src] {
-    filter: blur(0.4em);
-  }
+img[data-src] {
+  filter: blur(0.4em);
+}
 
 .bannerfoot {
   text-align: center;
@@ -363,7 +359,6 @@ footer h3 {
   text-decoration: none;
   color: inherit;
   /* padding: 1.4rem; */
-
 }
 .contact {
   font-size: 0.7em;
