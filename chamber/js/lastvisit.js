@@ -10,7 +10,7 @@ if (nVisit !== 0) {
     timeSince.textContent = `You've visited us ${nVisit} times. Last time was ${Math.round(tsDays)} days ago.`;
 
 }else {
-    timeSince.textContent = `Welcome new visitor! Enjoy your first visit to Gravity Falls`;
+    timeSince.textContent = `Welcome new visitor! Enjoy your first visit to Gravity Falls!`;
 }
 
 nVisit++;
