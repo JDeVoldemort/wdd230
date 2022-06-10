@@ -14,7 +14,7 @@ table {
   border-spacing: 1px;
 }
 thead {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 thead tr {
   font-size: 1.2rem;
@@ -36,7 +36,9 @@ th,
 td {
   padding: 0.5rem;
 }
-
+tfoot tr td {
+    font-size: .6rem;
+}
 tbody tr:nth-child(even) {
   background-color: var(--zebra);
 }
