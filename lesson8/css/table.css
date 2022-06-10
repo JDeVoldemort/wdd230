@@ -1,0 +1,45 @@
+:root {
+  --zebra: rgb(70, 115, 250);
+  --zebra2: rgb(89, 161, 243);
+}
+
+table {
+  max-width: 40rem;
+  margin: 0 auto;
+  box-shadow: 0 0 34px #333;
+  text-align: center;
+  font-family: Ubuntu, san-serif;
+  border: 1px solid #000;
+  color: black;
+  border-spacing: 1px;
+}
+thead {
+  font-size: 1.8rem;
+}
+thead tr {
+  font-size: 1.2rem;
+}
+.background {
+  background-color: rgb(51, 20, 137);
+  color: white;
+  padding: 0.7rem;
+}
+.lbackground {
+  background-color: rgb(132, 159, 241);
+  color: black;
+}
+.loosebg {
+  background-color: rgb(22, 22, 192);
+  color: white;
+}
+th,
+td {
+  padding: 0.5rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--zebra);
+}
+tbody tr:nth-child(odd) {
+  background-color: var(--zebra2);
+}
