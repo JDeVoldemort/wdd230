@@ -73,6 +73,12 @@
     grid-column: 1/3;
     grid-row: 6/7;
   }
+  form {
+    grid-column: 1/2;
+  }
+  .rightc {
+    grid-column: 2/3;
+  }
   /* .gallery1 {
     grid-column: 2/3;
     grid-row: 1/2;

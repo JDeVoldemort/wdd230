@@ -383,7 +383,45 @@ footer h3 {
 .hidden {
   display: none;
 }
+form {
+  padding: 1rem;
+}
+.submitBtn {
+  margin: 1rem auto;
+}
+form input {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px 5px 5px 5px;
+  grid-column: 1/2;
+  padding: 0.8rem;
+}
+label {
+  padding-top: 0.9rem;
+}
+.rightc ul {
+  font-size: larger;
+  min-width: 150px;
 
+}
+.rightc li {
+  font-size: smaller;
+}
+.rightc {
+  display: flex;
+  flex-direction: column;
+  font-family: "Leto", sans-serif;
+  text-align: left;
+  padding: 2rem;
+  justify-content: space-evenly;
+}
+  .rightc li, .rightc ul {
+    padding: 1rem;
+  }
+.textarea {
+  flex-wrap: wrap;
+  padding: 4em;
+}
 /* .clearfix:after {
   content: "";
   display: table;
