@@ -22,9 +22,13 @@ let lastmodif = new Date(document.lastModified).toLocaleDateString(
   "en-US",
   options
 );
-document.querySelector("#currentdate").textContent = lastmodif;
+document.querySelector(".currentdate").textContent = lastmodif;
+console.log(lastmodif);
 document.querySelector("#todaydate").textContent =
   new Date().toLocaleDateString("en-UK", optionsB);
+  const updateDay = new Date().toLocaleDateString("en-UK", options);
+document.querySelector(".updateday").value = updateDay;
+
 // }
 // catch (e) {
 //   alert("error Browser does not support locale");

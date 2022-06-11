@@ -380,6 +380,9 @@ footer h3 {
 .spotlight3 {
   display: none;
 }
+.hidden {
+  display: none;
+}
 
 /* .clearfix:after {
   content: "";
