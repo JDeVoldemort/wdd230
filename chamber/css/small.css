@@ -385,11 +385,12 @@ footer h3 {
 }
 form {
   padding: 1rem;
+  /* gap: 1rem; */
 }
 .submitBtn {
   margin: 1rem auto;
 }
-form input {
+form input, form textarea {
   display: flex;
   flex-direction: column;
   border-radius: 5px 5px 5px 5px;
@@ -398,6 +399,7 @@ form input {
 }
 label {
   padding-top: 0.9rem;
+  margin-top: .4rem;
 }
 .rightc ul {
   font-size: larger;
@@ -418,9 +420,11 @@ label {
   .rightc li, .rightc ul {
     padding: 1rem;
   }
-.textarea {
+textarea {
   flex-wrap: wrap;
-  padding: 4em;
+ resize: none;
+ padding-top: .9rem;
+ 
 }
 /* .clearfix:after {
   content: "";
