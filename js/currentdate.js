@@ -24,10 +24,13 @@ let lastmodif = new Date(document.lastModified).toLocaleDateString(
 );
 document.querySelector(".currentdate").textContent = lastmodif;
 console.log(lastmodif);
+
 document.querySelector("#todaydate").textContent =
   new Date().toLocaleDateString("en-UK", optionsB);
+
+  let formDay = document.querySelector(".updateday");
   const updateDay = new Date().toLocaleDateString("en-UK", options);
-document.querySelector(".updateday").value = updateDay;
+  formDay.value = updateDay;
 
 // }
 // catch (e) {
