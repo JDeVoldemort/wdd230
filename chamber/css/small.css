@@ -383,12 +383,19 @@ footer h3 {
 .hidden {
   display: none;
 }
+
+.title {
+  text-align: center;
+}
 form {
   padding: 1rem;
   /* gap: 1rem; */
 }
 .submitBtn {
   margin: 1rem auto;
+}
+.submitBtn:hover {
+  background-color: rgb(128, 195, 27);
 }
 form input, form textarea {
   display: flex;
@@ -397,10 +404,22 @@ form input, form textarea {
   grid-column: 1/2;
   padding: 0.8rem;
 }
-label {
+.top input{
   padding-top: 0.9rem;
-  margin-top: .4rem;
+ margin: 0 0 .9rem 0;
+
 }
+.radio {
+  display: grid;
+ grid-column: 2/3;
+}
+.radio input{
+  grid-column: 1/2;
+  margin: 0;
+  padding: 0;
+}
+
+
 .rightc ul {
   font-size: larger;
   min-width: 150px;

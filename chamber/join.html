@@ -82,7 +82,7 @@
       <div id="dateHeader"><span id="todaydate"></span></div>
     </header>
     <main>
-      <h3>Join the Gravity Falls Chamber of Commerce:</h3>
+      <h3 class="title">Join the Gravity Falls Chamber of Commerce:</h3>
       <form method="get" action="thankyou.html">
         <fieldset>
           <legend>Join us Information</legend>
@@ -110,18 +110,18 @@
         <fieldset>
           <legend>Membership Plan</legend>
           <label
-            ><input type="radio" name="member" value="np" /> Non-Profit</label
+            ><input type="radio" class="radio" name="member" value="np" /> No fee - Non-Profit</label
           >
           <label
-            ><input type="radio" name="member" value="bronze" /> Bronze
+            ><input type="radio" class="radio" name="member" value="bronze" /> $10 Bronze
             Membership</label
           >
           <label
-            ><input type="radio" name="member" value="silver" /> Silver
+            ><input type="radio" class="radio" name="member" value="silver" /> $40 - Silver
             Membership</label
           >
           <label
-            ><input type="radio" name="member" value="gold" /> Gold
+            ><input type="radio" class="radio" name="member" value="gold" /> $70 - Gold
             Membership</label
           >
         </fieldset>
@@ -135,7 +135,7 @@
               placeholder="Mystery Hack"
               required
           /></label>
-          <label>
+          <label class="top">
             Business Description: 
             <textarea name="bdesciption" rows="7" placeholder="A little known wonder of the world. Filled with artifacts better left undiscovered by man. No tourist should visit Gravity falls without stopping here."></textarea>
           </label>
