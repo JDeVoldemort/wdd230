@@ -110,40 +110,43 @@
         <fieldset>
           <legend>Membership Plan</legend>
           <label
-            ><input type="radio" class="radio" name="member" value="np" /> No fee - Non-Profit</label
+            ><input type="radio" class="radio" name="member" value="np" /> No
+            fee - Non-Profit</label
           >
           <label
-            ><input type="radio" class="radio" name="member" value="bronze" /> $10 Bronze
-            Membership</label
+            ><input type="radio" class="radio" name="member" value="bronze" />
+            $10 Bronze Membership</label
           >
           <label
-            ><input type="radio" class="radio" name="member" value="silver" /> $40 - Silver
-            Membership</label
+            ><input type="radio" class="radio" name="member" value="silver" />
+            $40 - Silver Membership</label
           >
           <label
-            ><input type="radio" class="radio" name="member" value="gold" /> $70 - Gold
-            Membership</label
+            ><input type="radio" class="radio" name="member" value="gold" /> $70
+            - Gold Membership</label
           >
         </fieldset>
         <fieldset>
           <legend>Your Business</legend>
           <label class="top"
-            >Business Name/Title*
-            <input
-              type="text"
-              name="business"
-              placeholder="Mystery Hack"
-              required
-          /></label>
+            >Business Name/Title* <input type="text" name="business"
+            placeholder="Mystery Hack" pattern="[\w- ]{7}" where "\w" =
+            [A-Za-z0-9_] where "-" = - where " " = (blank space) and {7} =
+            minimum 7 characters. /></label
+          >
           <label class="top">
-            Business Description: 
-            <textarea name="bdesciption" rows="7" placeholder="A little known wonder of the world. Filled with artifacts better left undiscovered by man. No tourist should visit Gravity falls without stopping here."></textarea>
+            Business Description:
+            <textarea
+              name="bdesciption"
+              rows="7"
+              placeholder="A little known wonder of the world. Filled with artifacts better left undiscovered by man. No tourist should visit Gravity falls without stopping here."
+            ></textarea>
           </label>
           <label
             ><input type="hidden" class="updateday" name="submitdate"
           /></label>
         </fieldset>
-        <input type="submit" value="Join GF Chamber" class="submitBtn">
+        <input type="submit" value="Join GF Chamber" class="submitBtn" />
       </form>
       <div class="rightc">
         <ul>

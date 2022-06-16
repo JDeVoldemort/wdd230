@@ -398,6 +398,10 @@ footer h3 {
 .title {
   text-align: center;
 }
+label {
+ font-size: smaller;
+  
+}
 form, .rightc {
   display: flex;
   flex-direction: column;
@@ -426,6 +430,7 @@ form input, form textarea {
 }
 .radio {
   display: grid;
+  
  grid-column: 2/3;
 }
 .radio input{
