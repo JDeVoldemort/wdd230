@@ -83,7 +83,7 @@
     </header>
     <main class="rpad">
       <h3 class="title">Join the Gravity Falls Chamber of Commerce:</h3>
-      <form method="get" action="thankyou.html">
+      <form class="form" method="get" action="thankyou.html">
         <fieldset>
           <legend>Join us Information</legend>
           <label class="top"
@@ -129,11 +129,10 @@
         <fieldset>
           <legend>Your Business</legend>
           <label class="top"
-            >Business Name/Title* <input type="text" name="business"
-            placeholder="Mystery Hack" pattern="[\w- ]{7}" where "\w" =
-            [A-Za-z0-9_] where "-" = - where " " = (blank space) and {7} =
-            minimum 7 characters. /></label
+            >Business Name/Title <input class="bust" type="text" name="business"
+            placeholder="Mystery Hack"/></label
           >
+          <div class="output"></div>
           <label class="top">
             Business Description:
             <textarea
@@ -199,6 +198,9 @@
       </div>
       <script src="./js/scripts.js"></script>
       <script src="../js/currentdate.js"></script>
+      <script src="./js/formdate.js"></script>
+      <script src="./js/formverify.js"></script>
+      
     </footer>
   </body>
 </html>
