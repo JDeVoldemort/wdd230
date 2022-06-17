@@ -2,7 +2,6 @@
     margin-left: 1rem;
     position: relative;
     display: grid;
-    /* grid-auto-rows: column; */
     grid-template-columns: repeat(auto-fit, minmax(150px,210px));
 
 }

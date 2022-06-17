@@ -35,7 +35,8 @@ function displayBusiness(bus) {
 }
 
 async function getPatrons(requestURL) {
-    if (Response.ok) {
+    const response = await fetch(requestURL);
+    if (response.ok) {
         const data = await response.json();
         makeList(data);
     }
@@ -43,7 +44,6 @@ async function getPatrons(requestURL) {
 
 async function makeList(data) {
     businesses = data['businesses'];
-    console.table(businesses);
 
     businesses.forEach(displayBusiness);
 }

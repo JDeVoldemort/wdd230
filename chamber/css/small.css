@@ -24,6 +24,10 @@ html {
 .red {
   color: rgb(149, 36, 36);
 }
+
+.grid {
+  display: grid;
+}
 body {
   max-width: 950px;
   justify-content: center;
@@ -53,7 +57,9 @@ main {
   grid-gap: 0.6em;
   text-align: left;
 }
-
+.dispblock {
+  display: block;
+}
 header {
   display: grid;
   grid-gap: 0.4rem;
@@ -178,7 +184,6 @@ main div {
   display: flex;
   border: 1px solid;
   padding: 0.4em;
-  /* padding-bottom: 3em; */
 }
 main p {
   padding: 6px;
@@ -471,6 +476,42 @@ textarea {
  resize: none;
  padding-top: .9rem;
  
+}
+
+/* Directory specific */
+
+.cards {
+  margin-left: 1rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px,210px));
+  align-items: center;
+
+}
+.cards section {
+  display: flex;
+    flex-direction: column;
+  border: 1px solid;
+  padding: 1rem;
+  margin: .5rem;
+  max-width: 210px;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.cards section p:not(:first-of-type) {
+  font-size: .6rem;
+  padding: .3rem;
+}
+.cards section:first-child {
+  font-size: larger;
+}
+
+.cards section img {
+  max-width: 100px;
+  box-shadow: 0 0 34px #333;
+
 }
 /* .clearfix:after {
   content: "";
