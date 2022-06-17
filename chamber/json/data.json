@@ -1,0 +1,84 @@
+{
+    "businesses": [
+        {
+            "name": "Biker Bar & Grill",
+            "phone": "666-999-9999",
+            "email": "bbar@bbar.com",
+            "website": "bbar.com",
+            "image": "images/b_bar.jpg",
+            "membership": "Gold"
+        },
+        {
+            "name": "The Cheap Fair",
+            "phone": "666-999-9669",
+            "email": "cheap@cheapfair.com",
+            "website": "cheapfair.com",
+            "image": "images/b_cheap_fair.jpg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Summer Pool",
+            "phone": "666-999-9979",
+            "email": "poolcheck@gravityfpool.com",
+            "website": "gravityfpool.com",
+            "image": "images/b_pool.jpg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Log Diner",
+            "phone": "666-939-9499",
+            "email": "lazys@logdiner.com",
+            "website": "logdiner.com",
+            "image": "images/silver1.jpg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Future Laser Tag",
+            "phone": "666-939-9998",
+            "email": "future@futurelasertag.com",
+            "website": "furturelasertag.com",
+            "image": "images/silver2.jpg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Haunting Hallow Supplies",
+            "phone": "666-899-9997",
+            "email": "hhallow@summerween.com",
+            "website": "summerween.com",
+            "image": "images/silver3.jpg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Gnome Tavern",
+            "phone": "666-899-9997",
+            "email": "shmebulock@woodstavern.com",
+            "website": "woodstavern.com",
+            "image": "images/silver4.jpg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Real Man Lumber",
+            "phone": "666-989-9799",
+            "email": "mandan@righthand.com",
+            "website": "righthand.com",
+            "image": "images/bronze1.jpg",
+            "membership": "Bronze"
+        },
+        {
+            "name": "GF Gossiper",
+            "phone": "666-979-9599",
+            "email": "gossip@gfgosiper.com",
+            "website": "gfgosiper.com",
+            "image": "images/bronze2.jpg",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Mystery Hack",
+            "phone": "666-989-9939",
+            "email": "mshack@mystaryh.com",
+            "website": "mystaryh.com",
+            "image": "images/np1.jpg",
+            "membership": "NP"
+        }
+
+    ]}
