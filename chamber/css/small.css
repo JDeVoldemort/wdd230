@@ -18,6 +18,12 @@ html {
 .op {
   opacity: 0.95;
 }
+.noborder {
+  border: none;
+}
+.red {
+  color: rgb(149, 36, 36);
+}
 body {
   max-width: 950px;
   justify-content: center;
@@ -438,9 +444,7 @@ form input, form textarea {
   margin: 0;
   padding: 0;
 }
-.output {
-  border: none;
-}
+
 
 .rightc ul {
   font-size: larger;
