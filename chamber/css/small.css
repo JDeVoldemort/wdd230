@@ -257,7 +257,8 @@ main p {
   font-size: 2rem;
   text-align: center;
 }
-#weathericon img {
+#weathericon {
+  width: 9em;
   grid-row: 2/3;
   grid-column: 1/2;
 }
