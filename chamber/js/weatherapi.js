@@ -9,7 +9,7 @@ async function apiFetch() {
       const response = await fetch(weathURL);
       if (response.ok) {
         const data = await response.json();
-        console.log(data); // this is for testing the call
+        // console.log(data); // this is for testing the call
         displayResults(data);
       } else {
           throw Error(await response.text());

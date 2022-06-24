@@ -1,9 +1,9 @@
 const temper = parseInt(document.querySelector("#temp").innerHTML);
 const windspu = parseFloat(document.querySelector("#windspv").innerHTML);
 const windchu = document.querySelector("#windchu");
-console.log(temper);
-console.log(windspu);
-console.log(windchu);
+// console.log(temper);
+// console.log(windspu);
+// console.log(windchu);
 if (temper <= 50 && windspu > 3) {
   let f =
     35.74 +
