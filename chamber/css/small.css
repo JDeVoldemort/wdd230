@@ -485,6 +485,7 @@ textarea {
   margin-left: 1rem;
   position: relative;
   display: grid;
+  grid-gap: .5em;
   grid-template-columns: repeat(auto-fit, minmax(160px,210px));
   align-items: center;
 
