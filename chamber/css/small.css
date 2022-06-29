@@ -31,6 +31,7 @@ textarea {
 .op {
   opacity: 0.95;
 }
+
 .noborder {
   border: none;
 }
@@ -56,7 +57,7 @@ body {
 header,
 footer {
   /* background-color: rgb(8, 112, 18); */
-  background-color: rgb(30, 124, 93);
+  background-color: var(--bfcolor);
   color: var(--ondarktext);
 }
 
@@ -161,6 +162,7 @@ nav {
   background-color: transparent;
   border: none;
   font-size: 2rem;
+  justify-content: space-evenly;
   /* width: .55%; */
 }
 
@@ -234,7 +236,7 @@ main p {
 .joinlink,
 .herop {
   background-color: var(--bfcolor);
-  padding: 0.4rem;
+  padding: 0.6rem;
   text-align: center;
 }
 .herojoin:hover,
@@ -493,28 +495,29 @@ textarea {
 }
 
 /* Directory specific */
-
-.cards {
+.grid {
   margin-left: 1rem;
   position: relative;
   display: grid;
   grid-gap: .5em;
   grid-template-columns: repeat(auto-fit, minmax(160px,210px));
-  align-items: center;
+  text-align: center;
 
 }
+
 .cards section {
 
   border: 1px solid;
   padding: 1rem;
   margin: .5rem;
+  /* justify-content: space-evenly; */
  
-  text-align: center;
+  /* text-align: center; */
   
 }
 
 .cards section p:not(:first-of-type) {
-  font-size: .6rem;
+  font-size: .8rem;
   padding: .3rem;
 }
 .cards section:first-child {
@@ -525,6 +528,15 @@ textarea {
   max-width: 100px;
   box-shadow: 0 0 34px #333;
 
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list section {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
 }
 /* .clearfix:after {
   content: "";

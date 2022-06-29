@@ -1,8 +1,11 @@
 const requestURL = 'https://jdevoldemort.github.io/wdd230/chamber/json/data.json';
 const cards = document.querySelector('.cards');
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
 
 function displayBusiness(bus) {
     // Create elements to add to the document
+    // cards.innerHTML = '';
     let card = document.createElement('section');
     let name = document.createElement('p');
     let phone = document.createElement('p');
@@ -21,6 +24,7 @@ function displayBusiness(bus) {
 
     image.setAttribute('src',`${bus.image}`);
     image.setAttribute('alt',`The logo of ${bus.name}`);
+    image.setAttribute('class',`busimg`);
     image.setAttribute('loading',`lazy`);
 
     // append items to card
@@ -49,3 +53,19 @@ async function makeList(data) {
 }
 
 getPatrons(requestURL);
+
+const busimg = document.querySelectorAll('cards.section.img.busimg');
+
+gridbutton.addEventListener("click", () => {
+	cards.classList.add("grid");
+	cards.classList.remove("list");
+	document.querySelectorAll('.busimg').forEach((el)=> {
+        el.classList.remove("hidden");})
+    
+});
+listbutton.addEventListener("click", () => {
+	cards.classList.add("list");
+	cards.classList.remove("grid");
+    document.querySelectorAll('.busimg').forEach((el)=> {
+        el.classList.add("hidden");})
+});
