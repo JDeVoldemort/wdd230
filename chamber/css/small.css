@@ -492,7 +492,11 @@ textarea {
  padding-top: .9rem;
  
 }
-
+.btn {
+  margin: 0.2rem 3vw;
+  font-size: 2rem;
+  justify-content: space-evenly;
+}
 /* Directory specific */
 .grid {
   margin-left: 1rem;
