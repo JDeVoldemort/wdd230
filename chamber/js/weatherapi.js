@@ -9,20 +9,20 @@ const windchu = document.querySelector("#windchu");
 // console.log(temper);
 // console.log(windspu);
 // console.log(windchu);
-if (currentTemp <= 50 && windspv > 3) {
-  let f =
-    35.74 +
-   (0.6215 * currentTemp) -
-    (35.75 * Math.pow(windspu, 0.16)) +
-    (0.4275 * currentTemp * Math.pow(windspu, 0.16));
-  console.log(f);
-  f = f.toPrecision(3);
-  console.log(f);
-  windchu.textContent = `${f}℉`;
-} else {
-  f = "N/A";
-  windchu.textContent = f;
-}
+// if (currentTemp <= 50 && windspv > 3) {
+//   let f =
+//     35.74 +
+//    (0.6215 * currentTemp) -
+//     (35.75 * Math.pow(windspu, 0.16)) +
+//     (0.4275 * currentTemp * Math.pow(windspu, 0.16));
+//   console.log(f);
+//   f = f.toPrecision(3);
+//   console.log(f);
+//   windchu.textContent = `${f}℉`;
+// } else {
+//   f = "N/A";
+//   windchu.textContent = f;
+// }
 async function apiFetch() {
     try {
       const response = await fetch(weathURL);
@@ -47,6 +47,24 @@ async function apiFetch() {
   
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
+
+    const ctemp = weatherData.main.temp.toFixed(0);
+    const cwindspv = weatherData.wind.speed.toFixed(0);
+    // console.log(ctemp);
+    // console.log(cwindspv);
+    if (ctemp <= 50 && cwindspv > 3) {
+      let f =
+        35.74 +
+       (0.6215 * ctemp) -
+        (35.75 * ctemp * Math.pow(cwindspv, 0.16));
+      // console.log(f);
+      f = f.toPrecision(3);
+      // console.log(f);
+      windchu.textContent = `${f}℉`;
+    } else {
+      f = "N/A";
+      windchu.textContent = f;
+    }
   }
 
   

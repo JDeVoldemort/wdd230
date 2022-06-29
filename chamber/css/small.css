@@ -183,7 +183,7 @@ nav {
   padding: 0.3rem;
 }
 
-.navigate a:hover {
+.navigate a:hover, footer a:hover {
   background-color: var(--hcolor);
   color: var(--onlighttext);
 }
