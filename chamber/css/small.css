@@ -455,7 +455,7 @@ form input, form textarea {
 
 }
 .radio {
-  display: grid;
+  /* display: grid; */
   
  grid-column: 2/3;
 }
