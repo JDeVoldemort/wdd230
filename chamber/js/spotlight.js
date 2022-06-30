@@ -1,8 +1,7 @@
 const requestURL = 'https://jdevoldemort.github.io/wdd230/chamber/json/data.json';
 const cards = document.querySelector('.spotlight');
 cards.innerHTML ='';
-// const gridbutton = document.querySelector("#grid");
-// const listbutton = document.querySelector("#list");
+
 let counter = 0;
 function displayBusiness(bus) {
     // Create elements to add to the document
@@ -37,7 +36,6 @@ function displayBusiness(bus) {
     card.appendChild(web);
     // card.appendChild(memberS);
     card.setAttribute('class', `spotlight${counter}`)
-    console.log(card);
     document.querySelector('section.spotlight').appendChild(card);
 }
 
@@ -52,10 +50,7 @@ async function getPatrons(requestURL) {
 async function makeList(data) {
     businesses = data['businesses'];
     length = businesses.length;
-    console.log(length);
     shuffleBusinesses = businesses.sort(() => .5 - Math.random());
-    console.log(shuffleBusinesses);
-    console.table(businesses);
     shuffleBusinesses.forEach(filterList);
 }
 getPatrons(requestURL);
@@ -63,7 +58,6 @@ async function filterList(shuffleBusinesses) {
 
     if (shuffleBusinesses.membership == 'Gold' || shuffleBusinesses.membership == 'Silver' ) {
         counter += 1;
-        console.log(counter);
         if (counter > 3) {
             return
         }

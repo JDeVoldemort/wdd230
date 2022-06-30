@@ -1,5 +1,4 @@
-// document.getElementById('currentdate').textContent = fulldate;
-// try {
+
 const todaysdate = new Date();
 const year = todaysdate.getFullYear();
 let options = {
@@ -23,14 +22,6 @@ let lastmodif = new Date(document.lastModified).toLocaleDateString(
   options
 );
 document.querySelector(".currentdate").textContent = lastmodif;
-// console.log(lastmodif);
 
 document.querySelector("#todaydate").textContent =
   new Date().toLocaleDateString("en-UK", optionsB);
-
-
-
-// }
-// catch (e) {
-//   alert("error Browser does not support locale");
-// }
