@@ -1,6 +1,6 @@
 const requestURL = 'https://jdevoldemort.github.io/wdd230/chamber/json/data.json';
 const cards = document.querySelector('.spotlight');
-// cards.innerHTML ='';
+cards.innerHTML ='';
 // const gridbutton = document.querySelector("#grid");
 // const listbutton = document.querySelector("#list");
 let counter = 0;
@@ -8,7 +8,7 @@ function displayBusiness(bus) {
     // Create elements to add to the document
     // cards.innerHTML = '';
 
-    let card = document.createElement('section');
+    let card = document.createElement('div');
     let name = document.createElement('p');
     let phone = document.createElement('p');
     let email = document.createElement('p');
@@ -33,12 +33,12 @@ function displayBusiness(bus) {
     card.appendChild(image);
     card.appendChild(name);
     card.appendChild(phone);
-    card.appendChild(email);
+    // card.appendChild(email);
     card.appendChild(web);
     // card.appendChild(memberS);
     card.setAttribute('class', `spotlight${counter}`)
     console.log(card);
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('section.spotlight').appendChild(card);
 }
 
 async function getPatrons(requestURL) {
@@ -51,8 +51,9 @@ async function getPatrons(requestURL) {
 
 async function makeList(data) {
     businesses = data['businesses'];
-
-    shuffleBusinesses = businesses.sort(() => .05 - Math.random());
+    length = businesses.length;
+    console.log(length);
+    shuffleBusinesses = businesses.sort(() => .5 - Math.random());
     console.log(shuffleBusinesses);
     console.table(businesses);
     shuffleBusinesses.forEach(filterList);

@@ -309,8 +309,7 @@ main p {
   flex-direction: column;
   border: 1px solid;
   padding: 0.1rem;
-  /* justify-content: center; */
-  /* height: 10em; */
+
 }
 .spotlight1,
 .spotlight2 {
@@ -320,11 +319,12 @@ main p {
 .spotlight1 img,
 .spotlight2 img,
 .spotlight3 img {
-  grid-row: 1/2;
-  grid-column: 1/2;
-  max-width: 60%;
+  /* grid-row: 1/2;
+  grid-column: 1/2; */
+  width: 40%;
+
   justify-self: center;
-  position: relative;
+  /* position: relative; */
 }
 .spotlight p {
   text-align: center;
