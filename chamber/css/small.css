@@ -42,7 +42,6 @@ textarea {
 body {
   max-width: 950px;
   justify-content: center;
-  font-family: "Leto", sans-serif;
   font-family: "Love Ya Like A Sister", cursive;
   text-align: center;
   margin: 2em auto;
@@ -441,7 +440,6 @@ form textarea {
 }
 .rightc li {
   list-style: none;
-  font-size: smaller;
 }
 .rightc {
   font-family: "Leto", sans-serif;
