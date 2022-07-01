@@ -25,6 +25,8 @@ function displayBusiness(bus) {
     image.setAttribute('src',`${bus.image}`);
     image.setAttribute('alt',`The logo of ${bus.name}`);
     image.setAttribute('class',`busimg`);
+    image.setAttribute('width',`100px`);
+    // image.setAttribute('height',`auto`);
     image.setAttribute('loading',`lazy`);
 
     // append items to card
