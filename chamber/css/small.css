@@ -395,6 +395,7 @@ footer h3 {
 }
 .title {
   text-align: center;
+  padding: 1rem;
 }
 label {
   font-size: smaller;
