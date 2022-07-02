@@ -238,7 +238,7 @@ main p {
   grid-row: 1/2;
   grid-column: 1/2;
   justify-self: center;
-  width: 50%;
+  max-width: 50%;
 }
 #eventinfo {
   grid-row: 2/3;
