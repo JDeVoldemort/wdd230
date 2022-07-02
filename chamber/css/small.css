@@ -424,12 +424,12 @@ form textarea {
   margin: 0 0 0.9rem 0;
 }
 .radio {
-  grid-column: 2/3;
+  display: block;
+  padding: 1rem;
+  font-size: 0.9rem;
 }
 .radio input {
-  grid-column: 1/2;
-  margin: 0;
-  padding: 0;
+  display: inline-block;
 }
 .rightc p {
   font-size: larger;
