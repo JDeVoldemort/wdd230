@@ -1,10 +1,60 @@
 :root {
-    --bfcolor: #14CC9F;
-    --bgcolor: #E5FFFF;
-    --hcolor: #1959E3;
-    --hcolor2: #B6FC35;
-    --hcolor2: #0CABF5;
-    --ondarktext: rgb(241, 246, 251);
+  --hfcolor: #14cc9f;
+  --bgcolor: #e5ffff;
+  --hcolor: #1959e3;
+  --hcolor2: #b6fc35;
+  --hcolor3: #0cabf5;
+  --ondarktext: rgb(241, 246, 251);
 
-    --onlighttext: black;
+  --onlighttext: black;
+}
+
+html {
+  background-color: var(--bgcolor);
+}
+
+/* normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common classes */
+.empad {
+  padding: 1em;
+}
+
+.hfcolor {
+  background-color: var(--hfcolor);
+}
+
+.ondarktext {
+  color: var(--ondarktext);
+}
+
+.onlighttext {
+  color: var(--onlighttext);
+}
+
+.hover a {
+  background-color: var(--hcolor);
+  border: 1px var(--hcolor3);
+  text-decoration: none;
+}
+
+.hover a:hover {
+  background-color: var(--hcolor2);
+  color: var(--onlighttext);
+}
+.grid {
+  display: grid;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
 }
