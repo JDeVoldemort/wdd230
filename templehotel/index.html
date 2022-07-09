@@ -1,31 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Temple Inn and Suites</title>
-    <meta name="description" content="Welcome to the Temple Inn and suites">
+    <meta name="description" content="Welcome to the Temple Inn and suites" />
     <link rel="shortcut icon" href="images/templefavicon.ico" />
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=The+Girl+Next+Door&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
-    
-</head>
-<body>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&family=The+Girl+Next+Door&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <div class="weatheralert">
+      <span></span>
+    </div>
+
     <header>
-
+      <section class="logotitle">
+        <picture class="logo">
+          <img
+            src="images/tislogo.jpg"
+            alt="Temple Inn & Suites Logo"
+          />
+        </picture>
+        <section class="titles">
+          <h1>Temple Inn & Suites</h1>
+        </section>
+      </section>
+      <div class="social">
+        <a href="https://www.facebook.com" target="_blank">
+          <svg
+            height="100%"
+            style="
+              fill-rule: evenodd;
+              clip-rule: evenodd;
+              stroke-linejoin: round;
+              stroke-miterlimit: 2;
+            "
+            version="1.1"
+            viewBox="0 0 512 512"
+            width="100%"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z"
+            /></svg
+        ></a>
+        <a href="https://www.linkedin.com" target="_blank"
+          ><svg width="100%" viewBox="0 0 512 512">
+            <defs id="defs4" />
+            <g id="layer1" transform="translate(0,-552.36218)">
+              <path
+                d="M 50 0 C 22.3 0 -9.483155e-017 22.3 0 50 L 0 450 C 0 477.7 22.3 500 50 500 L 450 500 C 477.7 500 500 477.7 500 450 L 500 50 C 500 22.3 477.7 -9.483155e-017 450 0 L 50 0 z M 79.0625 51.15625 L 422.46875 51.15625 C 438.13028 51.15625 450.75 63.775966 450.75 79.4375 L 450.75 422.96875 C 450.75 438.63028 438.13028 451.21875 422.46875 451.21875 L 79.0625 451.21875 C 63.400966 451.21875 50.8125 438.63028 50.8125 422.96875 L 50.8125 79.4375 C 50.8125 63.775966 63.400966 51.15625 79.0625 51.15625 z M 139.90625 105.78125 C 120.7241 105.78125 105.1875 121.31785 105.1875 140.5 C 105.1875 159.68215 120.7241 175.25 139.90625 175.25 C 159.0884 175.25 174.625 159.68215 174.625 140.5 C 174.625 121.31785 159.0884 105.78125 139.90625 105.78125 z M 321.78125 196.21875 C 317.85918 196.20478 314.04108 196.36776 309.0625 196.625 C 298.14378 197.18916 272.64946 208.99245 263.3125 227.84375 C 263.3125 219.65941 263.40625 212.15473 263.40625 200.9375 C 252.22212 200.9375 237.59851 201 207.03125 201 C 207.03125 235.25275 206.65625 356.56169 206.65625 391.90625 L 265.84375 391.90625 C 265.84375 370.93882 266.125 318.2611 266.125 285.1875 C 266.125 274.08181 272.84022 248.4375 300.4375 248.4375 C 325.49621 248.4375 332.53125 269.51509 332.53125 285.1875 C 332.53125 319.63203 332.28125 368.33154 332.28125 391.90625 L 391.8125 391.90625 C 391.8125 368.8622 392.01925 306.27404 391.3125 266.78125 C 390.45438 218.82992 361.27754 198.36467 335.09375 196.75 C 329.70552 196.41773 325.70331 196.23272 321.78125 196.21875 z M 110.1875 201.75 L 110.1875 391.8125 L 169.53125 391.8125 L 169.53125 201.75 L 110.1875 201.75 z "
+                id="rect2995"
+                style="fill: #000000; fill-opacity: 1; fill-rule: nonzero"
+                transform="translate(0,552.36218)"
+              />
+            </g></svg
+        ></a>
+      </div>
+      <nav>
+        <ul class="navigate">
+          <li><a class="menubtn" href="#">&#9776;</a></li>
+          <li><a href="temple.html">Temples</a></li>
+          <li><a href="reservation.html">Reservations</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+      <!-- </section> -->
+      <div id="dateHeader"><span id="todaydate"></span></div>
     </header>
-    <main>
-
-    
-    </main>
-    <footer>
-
-    </footer>
-</body>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
