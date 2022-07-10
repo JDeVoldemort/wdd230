@@ -24,9 +24,18 @@ html {
 .empad {
   padding: 1em;
 }
-
-.hfcolor {
+a {
+  text-decoration: none;
+}
+header, footer {
   background-color: var(--hfcolor);
+}
+body {
+ font-family: 'The Girl Next Door', cursive;;
+}
+
+body p {
+  font-family: 'Inconsolata', monospace;
 }
 
 .ondarktext {
@@ -41,6 +50,7 @@ html {
   background-color: var(--hcolor);
   border: 1px var(--hcolor3);
   text-decoration: none;
+  color: var(--ondarktext);
 }
 
 .hover a:hover {
@@ -57,4 +67,36 @@ html {
 
 .flex {
   display: flex;
+}
+
+.social {
+  /* grid-row: 1/2; */
+  justify-self: right;
+}
+.social a svg {
+  width: 25px;
+
+  height: auto;
+}
+.navigate {
+  list-style: none;
+}
+.navigate li:first-child {
+  display: block;
+  border: none;
+}
+.navigate li {
+  display: none;
+}
+
+.navigate a {
+  display: block;
+  text-decoration: none;
+  padding: 0.3rem;
+}
+
+.respond li {
+  display: block;
+  background-color: var(--hfcolor);
+  line-height: 1.4;
 }

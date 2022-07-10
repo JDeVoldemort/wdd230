@@ -24,6 +24,14 @@
     </div>
 
     <header>
+        <nav>
+            <ul class="hover navigate">
+              <li><a class="menubtn" href="#">&#9776;</a></li>
+              <li><a href="temple.html">Temples</a></li>
+              <li><a href="reservation.html">Reservations</a></li>
+              <li><a href="services.html">Services</a></li>
+            </ul>
+          </nav>
       <section class="logotitle">
         <picture class="logo">
           <img
@@ -69,18 +77,33 @@
             </g></svg
         ></a>
       </div>
-      <nav>
-        <ul class="navigate">
-          <li><a class="menubtn" href="#">&#9776;</a></li>
-          <li><a href="temple.html">Temples</a></li>
-          <li><a href="reservation.html">Reservations</a></li>
-          <li><a href="services.html">Services</a></li>
-        </ul>
-      </nav>
+
       <!-- </section> -->
-      <div id="dateHeader"><span id="todaydate"></span></div>
+      <!-- <div id="dateHeader"><span id="todaydate"></span></div> -->
     </header>
     <main></main>
-    <footer></footer>
+    <footer>
+        <section>
+            <picture class="footerlogo">
+                <img
+            src="images/tislogo.jpg"
+            alt="Temple Inn & Suites Logo"
+          />
+            </picture>
+            <section class="contact hover">
+                <p>info@templeinnsuites.com</p>
+                <p>(999) 999-9999</p>
+                <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+                <a href="https://goo.gl/maps/BFEYM2TyweJL5ier8">📍 Find us here</a>
+            </section>
+            <p>&copy;<span id="currentyear"></span> Temple Inn & Suites</p> 
+            <p>Jim Demordaunt</p>
+            <p class="update">Last Updated: <span class="currentdate"></span></p>
+        </section>
+
+        <script src="js/menu.js"></script>
+        <script src="js/lastmodified"></script>
+
+    </footer>
   </body>
 </html>
