@@ -24,14 +24,24 @@ html {
 .empad {
   padding: 1em;
 }
-a {
-  text-decoration: none;
+.mmarg {
+  margin: .2rem 3vw;
 }
+.onefont {
+  font-size: 2rem;
+}
+
 header, footer {
   background-color: var(--hfcolor);
 }
+
+
+footer p, footer a {
+  padding: .3rem;
+}
 body {
- font-family: 'The Girl Next Door', cursive;;
+ font-family: 'The Girl Next Door', cursive;
+ min-width: 370px;
 }
 
 body p {
@@ -47,10 +57,15 @@ body p {
 }
 
 .hover a {
+  border-radius: 5px 5px 5px 5px;
   background-color: var(--hcolor);
-  border: 1px var(--hcolor3);
+  border: 1px solid var(--hcolor3);
   text-decoration: none;
   color: var(--ondarktext);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px 5px 5px 5px;
+  -o-border-radius: 5px 5px 5px 5px;
 }
 
 .hover a:hover {
@@ -75,9 +90,14 @@ body p {
   -ms-border-radius: 5px 5px 5px 5px;
   -o-border-radius: 5px 5px 5px 5px;
 }
+header {
+  grid-template-columns: 40px 2fr 1fr .5fr;
+}
 .social {
+  grid-column: 4/5;
+  flex-direction: column;
   /* grid-row: 1/2; */
-  justify-self: right;
+  /* justify-self: right; */
 }
 .social a svg {
   width: 25px;
@@ -94,15 +114,36 @@ body p {
 .navigate li {
   display: none;
 }
-
-.navigate a {
-  display: block;
-  text-decoration: none;
-  padding: 0.3rem;
+.respond {
+  position:absolute;
 }
-
+.respond li:first-child {
+  position:relative;
+}
 .respond li {
   display: block;
   background-color: var(--hfcolor);
   line-height: 1.4;
 }
+.navigate a {
+  display: block;
+  padding: 0.3rem;
+}
+nav {
+  position: absolute;
+}
+
+.titles {
+  grid-column: 2/3;
+  font-size: 1em;
+}
+.logo {
+  grid-column: 3/4;
+}
+.footerlogo img {
+  width: 4em;
+}
+footer {
+  text-align: center;
+}
+

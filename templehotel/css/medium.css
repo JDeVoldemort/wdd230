@@ -1,3 +1,12 @@
 @media (min-width: 34.5em) {
-
+.titles {
+    font-size: 1.5em;
+}
+    .footer2 {
+        display: flex;
+        border-top: 1px solid black;
+        grid-row: 2/3;
+        grid-column: 1/-1;
+        justify-content: space-evenly;
+    }
 }
