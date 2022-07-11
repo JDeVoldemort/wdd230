@@ -121,6 +121,7 @@ header {
   position:relative;
 }
 .respond li {
+  display: block;
   background-color: var(--hfcolor);
   line-height: 1.4;
 }
@@ -133,7 +134,7 @@ nav {
 }
 
 .titles {
-  display: block;
+  /* display: block; */
   grid-column: 2/3;
   font-size: 1em;
 }
