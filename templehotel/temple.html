@@ -27,6 +27,7 @@
       <nav class="onefont">
         <ul class="hover navigate">
           <li><a class="menubtn curve" href="#">&#9776;</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="temple.html">Temples</a></li>
           <li><a href="reservation.html">Reservations</a></li>
           <li><a href="services.html">Services</a></li>
@@ -79,7 +80,16 @@
       <!-- </section> -->
       <!-- <div id="dateHeader"><span id="todaydate"></span></div> -->
     </header>
-    <main></main>
+    <main class="block">
+        <h2 class="title allcolumn">
+          We have locations near theses Temples:
+        </h2>
+        <!-- <div class="btn">
+          <button class="joinlink noborder" id="grid">Grid</button>
+          <button class="joinlink noborder" id="list">List</button>
+        </div> -->
+        <div class="cards grid noborder"></div>
+      </main>
     <footer class="empad grid curve">
         <picture class="footerlogo">
             <img class="curve" src="images/tislogo.jpg" alt="Temple Inn & Suites Logo" />
@@ -102,6 +112,8 @@
 
       <script src="js/menu.js"></script>
       <script src="js/lastmodified"></script>
+      <script src="js/temples.js"></script>
+
     </footer>
   </body>
 </html>
