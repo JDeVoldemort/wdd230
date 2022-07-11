@@ -1,5 +1,11 @@
 @media (min-width: 60.5625em) {
 .titles {
-    font-size: 2.4em;
+    font-size: 2.5em;
+}
+.logo img {
+width: 10em;
+}
+footer p, footer a {
+    font-size: 1.6rem;
 }
 }
