@@ -1,0 +1,168 @@
+{
+    "temples": [
+        {
+            "name": "Oakland California Temple",
+            "address": "4770 Lincoln Ave Oakland CA 94602-2535 United States",
+            "phone": "(1) 510-531-3200",
+            "email": "oaktemple@lds.org",
+            "services": [
+                "Clothing rental available",
+                "No cafeteria available",
+                "Patron housing available",
+                "Distribution center nearby"
+            ],
+            "image": "images/oaktemple.jpg",
+            "history": [{
+                "announced": "23 January 1961",
+                "groundbreaking": "26 May 1962",
+                "Dedicated": "17 November 1964",
+                "Rededicated": "16 June 2019"
+        }],
+            "ordinanceS": "Closed",
+            "closureS": [
+                {
+                    "2022": [
+                        "Monday, 5 September 2022 - Monday, 19 September 2022",
+                        "Saturday, 1 October 2022",
+                        "Wednesday, 23 November 2022 (Limited Operations)",
+                        "Thursday, 24 November 2022",
+                        "Saturday, 24 December 2022",
+                        "Saturday, 31 December 2022"
+                    ],
+                    "2023": [
+                        "Monday, 13 March 2023 - Monday, 27 March 2023",
+                        "Saturday, 1 April 2023",
+                        "Tuesday, 4 July 2023",
+                        "Monday, 11 September 2023 - Monday, 25 September 2023",
+                        "Saturday, 7 October 2023",
+                        "Wednesday, 22 November 2023 (Limited Operations)",
+                        "Thursday, 23 November 2023"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Oakland California Temple",
+            "address": "4770 Lincoln Ave Oakland CA 94602-2535 United States",
+            "phone": "(1) 510-531-3200",
+            "email": "oaktemple@lds.org",
+            "services": [
+                "Clothing rental available",
+                "No cafeteria available",
+                "Patron housing available",
+                "Distribution center nearby"
+            ],
+            "image": "images/oaktemple.jpg",
+            "history": [{
+                "announced": "23 January 1961",
+                "groundbreaking": "26 May 1962",
+                "Dedicated": "17 November 1964",
+                "Rededicated": "16 June 2019"
+        }],
+            "ordinanceS": "Closed",
+            "closureS": [
+                {
+                    "2022": [
+                        "Monday, 5 September 2022 - Monday, 19 September 2022",
+                        "Saturday, 1 October 2022",
+                        "Wednesday, 23 November 2022 (Limited Operations)",
+                        "Thursday, 24 November 2022",
+                        "Saturday, 24 December 2022",
+                        "Saturday, 31 December 2022"
+                    ],
+                    "2023": [
+                        "Monday, 13 March 2023 - Monday, 27 March 2023",
+                        "Saturday, 1 April 2023",
+                        "Tuesday, 4 July 2023",
+                        "Monday, 11 September 2023 - Monday, 25 September 2023",
+                        "Saturday, 7 October 2023",
+                        "Wednesday, 22 November 2023 (Limited Operations)",
+                        "Thursday, 23 November 2023"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Oakland California Temple",
+            "address": "4770 Lincoln Ave Oakland CA 94602-2535 United States",
+            "phone": "(1) 510-531-3200",
+            "email": "oaktemple@lds.org",
+            "services": [
+                "Clothing rental available",
+                "No cafeteria available",
+                "Patron housing available",
+                "Distribution center nearby"
+            ],
+            "image": "images/oaktemple.jpg",
+            "history": [{
+                "announced": "23 January 1961",
+                "groundbreaking": "26 May 1962",
+                "Dedicated": "17 November 1964",
+                "Rededicated": "16 June 2019"
+        }],
+            "ordinanceS": "Closed",
+            "closureS": [
+                {
+                    "2022": [
+                        "Monday, 5 September 2022 - Monday, 19 September 2022",
+                        "Saturday, 1 October 2022",
+                        "Wednesday, 23 November 2022 (Limited Operations)",
+                        "Thursday, 24 November 2022",
+                        "Saturday, 24 December 2022",
+                        "Saturday, 31 December 2022"
+                    ],
+                    "2023": [
+                        "Monday, 13 March 2023 - Monday, 27 March 2023",
+                        "Saturday, 1 April 2023",
+                        "Tuesday, 4 July 2023",
+                        "Monday, 11 September 2023 - Monday, 25 September 2023",
+                        "Saturday, 7 October 2023",
+                        "Wednesday, 22 November 2023 (Limited Operations)",
+                        "Thursday, 23 November 2023"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Oakland California Temple",
+            "address": "4770 Lincoln Ave Oakland CA 94602-2535 United States",
+            "phone": "(1) 510-531-3200",
+            "email": "oaktemple@lds.org",
+            "services": [
+                "Clothing rental available",
+                "No cafeteria available",
+                "Patron housing available",
+                "Distribution center nearby"
+            ],
+            "image": "images/oaktemple.jpg",
+            "history": [{
+                "announced": "23 January 1961",
+                "groundbreaking": "26 May 1962",
+                "Dedicated": "17 November 1964",
+                "Rededicated": "16 June 2019"
+        }],
+            "ordinanceS": "Closed",
+            "closureS": [
+                {
+                    "2022": [
+                        "Monday, 5 September 2022 - Monday, 19 September 2022",
+                        "Saturday, 1 October 2022",
+                        "Wednesday, 23 November 2022 (Limited Operations)",
+                        "Thursday, 24 November 2022",
+                        "Saturday, 24 December 2022",
+                        "Saturday, 31 December 2022"
+                    ],
+                    "2023": [
+                        "Monday, 13 March 2023 - Monday, 27 March 2023",
+                        "Saturday, 1 April 2023",
+                        "Tuesday, 4 July 2023",
+                        "Monday, 11 September 2023 - Monday, 25 September 2023",
+                        "Saturday, 7 October 2023",
+                        "Wednesday, 22 November 2023 (Limited Operations)",
+                        "Thursday, 23 November 2023"
+                    ]
+                }
+            ]
+        }
+    ]
+}
