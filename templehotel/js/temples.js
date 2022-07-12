@@ -36,7 +36,7 @@ function displayTemples(tem) {
     console.log(close);
     closures.appendChild(close);
     closures.appendChild(close2);
-   // scrap lists in json when you see this and just submit services as a paragraph do the same with the closure dates. # ask what am missing in the layered lists. 
+   // scrap lists in json when you come back in the morning and just submit services as a paragraph do the same with the closure dates. # ask what am missing in the layered lists. 
     console.table(clss);
 
     // closures.innerHTML = `${tem.closures}`;
