@@ -1,177 +1,175 @@
 {
-    "temples": [
+  "temples": [
+    {
+      "name": "Oakland California Temple",
+      "address": "4770 Lincoln Ave Oakland CA 94602-2535 United States",
+      "phone": "(1) 510-531-3200",
+      "email": "oaktemple@lds.org",
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+      ],
+      "image": "images/oaktemple.jpg",
+      "history": [
         {
-            "name": "Oakland California Temple",
-            "address": "4770 Lincoln Ave Oakland CA 94602-2535 United States",
-            "phone": "(1) 510-531-3200",
-            "email": "oaktemple@lds.org",
-            "services": [
-                "Clothing rental available",
-                "No cafeteria available",
-                "Patron housing available",
-                "Distribution center nearby"
-            ],
-            "image": "images/oaktemple.jpg",
-            "history": [
-                {
-                    "announced": "23 January 1961",
-                    "groundbreaking": "26 May 1962",
-                    "dedicated": "17 November 1964",
-                    "rededicated": "16 June 2019",
-                    "rededicated2": "N/A"
-                }
-            ],
-            "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
-            "closures": [
-                {
-                    "2022": [
-                        "Monday, 5 September 2022 - Monday, 19 September 2022",
-                        "Saturday, 1 October 2022",
-                        "Wednesday, 23 November 2022 (Limited Operations)",
-                        "Thursday, 24 November 2022",
-                        "Saturday, 24 December 2022",
-                        "Saturday, 31 December 2022"
-                    ],
-                    "2023": [
-                        "Monday, 13 March 2023 - Monday, 27 March 2023",
-                        "Saturday, 1 April 2023",
-                        "Tuesday, 4 July 2023",
-                        "Monday, 11 September 2023 - Monday, 25 September 2023",
-                        "Saturday, 7 October 2023",
-                        "Wednesday, 22 November 2023 (Limited Operations)",
-                        "Thursday, 23 November 2023"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Mesa Arizona Temple",
-            "address": "101 S LeSueur Mesa AZ 85204-1031 United States",
-            "phone": "(1) 480-833-1211",
-            "email": "mesatemple@lds.org",
-            "services": [
-                "Clothing rental available",
-                "No cafeteria available",
-                "No Patron housing available",
-                "Distribution center nearby"
-            ],
-            "image": "images/mesatemplesmall.jpg",
-            "history": [
-                {
-                    "announced": "1 October 1919",
-                    "groundbreaking": "25 April 1922",
-                    "dedicated": "23 October 1927",
-                    "rededicated": "15 April 1975",
-                    "rededicated2": "12 December 2021"
-                }
-            ],
-            "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
-            "closures": [
-                {
-                    "2022": [
-                        "Monday, 18 July 2022 - Monday, 1 August 2022",
-                        "Saturday, 1 October 2022",
-                        "Wednesday, 23 November 2022 (Limited Operations)",
-                        "Thursday, 24 November 2022",
-                        "Saturday, 24 December 2022",
-                        "Saturday, 31 December 2022"
-                    ],
-                    "2023": [
-                        "Monday, 27 February 2023 - Monday, 13 March 2023",
-                        "Tuesday, 28 March 2023 - Monday, 10 April 2023 (Limited Operations)",
-                        "Saturday, 1 April 2023",
-                        "Tuesday, 4 July 2023",
-                        "Saturday, 30 September 2023",
-                        "Monday, 16 October 2023 - Monday, 30 October 2023",
-                        "Wednesday, 22 November 2023 (Limited Operations)"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Los Angeles California Temple",
-            "address": "10777 Santa Monica Blvd Los Angeles CA 90025-4718 United States",
-            "phone": "(1) 310-474-5569",
-            "email": "latemple@lds.org",
-            "services": [
-                "Clothing rental available",
-                "No cafeteria available",
-                "Patron housing available",
-                "Distribution center nearby"
-            ],
-            "image": "images/latemplesmall.jpg",
-            "history": [
-                {
-                    "announced": "6 March 1937",
-                    "groundbreaking": "22 September 1951",
-                    "dedicated": "11 March 1956",
-                    "rededicated": "N/A",
-                    "rededicated2": "N/A"
-                }
-            ],
-            "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
-            "closures": [
-                {
-                    "2022": [
-                        "Monday, 11 July 2022 - Monday, 1 August 2022",
-                        "Saturday, 1 October 2022",
-                        "Tuesday, 22 November 2022 - Thursday, 24 November 2022",
-                        "Saturday, 24 December 2022",
-                        "Saturday, 31 December 2022"
-                    ],
-                    "2023": [
-                        "Monday, 13 March 2023 - Monday, 27 March 2023",
-                        "Saturday, 1 April 2023",
-                        "Tuesday, 4 July 2023",
-                        "Monday, 21 August 2023 - Monday, 11 September 2023",
-                        "Saturday, 7 October 2023",
-                        "Tuesday, 21 November 2023 - Thursday, 23 November 2023"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Rexburg Idaho Temple",
-            "address": "750 S 2nd E Rexburg ID 83440-5404 United States",
-            "phone": "(1) 208-656-0880",
-            "email": "rextemple@lds.org",
-            "services": [
-                "Clothing rental available",
-                "No cafeteria available",
-                "No Patron housing available",
-                "Distribution center nearby"
-            ],
-            "image": "images/rextemplesmall.jpg",
-            "history": [
-                {
-                    "announced": "12 December 2003",
-                    "groundbreaking": "30 July 2005",
-                    "dedicated": "10 February 2008",
-                    "rededicated": "N/A",
-                    "rededicated2": "N/A"
-                }
-            ],
-            "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
-            "closures": [
-                {
-                    "2022": [
-                        "Saturday, 23 July 2022",
-                        "Saturday, 1 October 2022",
-                        "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
-                        "Saturday, 24 December 2022",
-                        "Saturday, 31 December 2022"
-                    ],
-                    "2023": [
-                        "Saturday, 1 April 2023",
-                        "Tuesday, 4 July 2023",
-                        "Saturday, 22 July 2023",
-                        "Monday, 28 August 2023 - Monday, 11 September 2023",
-                        "Saturday, 7 October 2023",
-                        "Thursday, 23 November 2023 - Friday, 24 November 2023",
-                        "Tuesday, 26 December 2023"
-                    ]
-                }
-            ]
+          "announced": "23 January 1961",
+          "groundbreaking": "26 May 1962",
+          "dedicated": "17 November 1964",
+          "rededicated": "16 June 2019",
+          "rededicated2": "N/A"
         }
-    ]
+      ],
+      "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
+      "closures": {
+        "2022": [
+          "Monday, 5 September 2022 - Monday, 19 September 2022",
+          "Saturday, 1 October 2022",
+          "Wednesday, 23 November 2022 (Limited Operations)",
+          "Thursday, 24 November 2022",
+          "Saturday, 24 December 2022",
+          "Saturday, 31 December 2022"
+        ],
+        "2023": [
+          "Monday, 13 March 2023 - Monday, 27 March 2023",
+          "Saturday, 1 April 2023",
+          "Tuesday, 4 July 2023",
+          "Monday, 11 September 2023 - Monday, 25 September 2023",
+          "Saturday, 7 October 2023",
+          "Wednesday, 22 November 2023 (Limited Operations)",
+          "Thursday, 23 November 2023"
+        ]
+      }
+    },
+    {
+      "name": "Mesa Arizona Temple",
+      "address": "101 S LeSueur Mesa AZ 85204-1031 United States",
+      "phone": "(1) 480-833-1211",
+      "email": "mesatemple@lds.org",
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "No Patron housing available",
+        "Distribution center nearby"
+      ],
+      "image": "images/mesatemplesmall.jpg",
+      "history": [
+        {
+          "announced": "1 October 1919",
+          "groundbreaking": "25 April 1922",
+          "dedicated": "23 October 1927",
+          "rededicated": "15 April 1975",
+          "rededicated2": "12 December 2021"
+        }
+      ],
+      "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
+      "closures": [
+        {
+          "2022": [
+            "Monday, 18 July 2022 - Monday, 1 August 2022",
+            "Saturday, 1 October 2022",
+            "Wednesday, 23 November 2022 (Limited Operations)",
+            "Thursday, 24 November 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"
+          ],
+          "2023": [
+            "Monday, 27 February 2023 - Monday, 13 March 2023",
+            "Tuesday, 28 March 2023 - Monday, 10 April 2023 (Limited Operations)",
+            "Saturday, 1 April 2023",
+            "Tuesday, 4 July 2023",
+            "Saturday, 30 September 2023",
+            "Monday, 16 October 2023 - Monday, 30 October 2023",
+            "Wednesday, 22 November 2023 (Limited Operations)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Los Angeles California Temple",
+      "address": "10777 Santa Monica Blvd Los Angeles CA 90025-4718 United States",
+      "phone": "(1) 310-474-5569",
+      "email": "latemple@lds.org",
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "Patron housing available",
+        "Distribution center nearby"
+      ],
+      "image": "images/latemplesmall.jpg",
+      "history": [
+        {
+          "announced": "6 March 1937",
+          "groundbreaking": "22 September 1951",
+          "dedicated": "11 March 1956",
+          "rededicated": "N/A",
+          "rededicated2": "N/A"
+        }
+      ],
+      "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
+      "closures": [
+        {
+          "2022": [
+            "Monday, 11 July 2022 - Monday, 1 August 2022",
+            "Saturday, 1 October 2022",
+            "Tuesday, 22 November 2022 - Thursday, 24 November 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"
+          ],
+          "2023": [
+            "Monday, 13 March 2023 - Monday, 27 March 2023",
+            "Saturday, 1 April 2023",
+            "Tuesday, 4 July 2023",
+            "Monday, 21 August 2023 - Monday, 11 September 2023",
+            "Saturday, 7 October 2023",
+            "Tuesday, 21 November 2023 - Thursday, 23 November 2023"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rexburg Idaho Temple",
+      "address": "750 S 2nd E Rexburg ID 83440-5404 United States",
+      "phone": "(1) 208-656-0880",
+      "email": "rextemple@lds.org",
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "No Patron housing available",
+        "Distribution center nearby"
+      ],
+      "image": "images/rextemplesmall.jpg",
+      "history": [
+        {
+          "announced": "12 December 2003",
+          "groundbreaking": "30 July 2005",
+          "dedicated": "10 February 2008",
+          "rededicated": "N/A",
+          "rededicated2": "N/A"
+        }
+      ],
+      "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
+      "closures": [
+        {
+          "2022": [
+            "Saturday, 23 July 2022",
+            "Saturday, 1 October 2022",
+            "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"
+          ],
+          "2023": [
+            "Saturday, 1 April 2023",
+            "Tuesday, 4 July 2023",
+            "Saturday, 22 July 2023",
+            "Monday, 28 August 2023 - Monday, 11 September 2023",
+            "Saturday, 7 October 2023",
+            "Thursday, 23 November 2023 - Friday, 24 November 2023",
+            "Tuesday, 26 December 2023"
+          ]
+        }
+      ]
+    }
+  ]
 }
