@@ -1,9 +1,11 @@
 :root {
-  --hfcolor: #14cc9f;
+  --hfcolor: #13cb7b;
+  --hfcolor2: #14cc9f;
   --bgcolor: #e5ffff;
   --hcolor: #1959e3;
   --hcolor2: #b6fc35;
-  --hcolor3: #0cabf5;
+  --hcolor3a: #0cabf5;
+  --hcolor3: #979795;
   --ondarktext: rgb(241, 246, 251);
 
   --onlighttext: black;
@@ -24,11 +26,17 @@ html {
 .empad {
   padding: 1em;
 }
+.empad5 {
+  padding: .5em;
+}
 .mmarg {
-  margin: .2rem 3vw;
+  margin: .2rem;
 }
 .onefont {
   font-size: 2rem;
+}
+.onefont5 {
+  font-size: 1.5rem;
 }
 
 header, footer {
@@ -59,7 +67,7 @@ body p {
 .hover a {
   border-radius: 5px 5px 5px 5px;
   background-color: var(--hcolor);
-  border: 1px solid var(--hcolor3);
+  border: 1px solid var(--hcolor3a);
   text-decoration: none;
   color: var(--ondarktext);
   -webkit-border-radius: 5px 5px 5px 5px;
@@ -82,6 +90,9 @@ body p {
 
 .flex {
   display: flex;
+}
+.gap {
+  grid-gap: .4rem;
 }
 .curve {
   border-radius: 5px 5px 5px 5px;
@@ -149,4 +160,13 @@ footer {
 }
 .contact a {
   display: block;
+}
+/* main rules */
+
+main div {
+  background-color: var(--hcolor3);
+}
+.title {
+  text-align: center;
+  background-color: var(--hcolor3a);
 }
