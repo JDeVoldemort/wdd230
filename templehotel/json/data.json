@@ -13,10 +13,10 @@
             ],
             "image": "images/oaktemple.jpg",
             "history": [
-                "Announced:  23 January 1961",
-                "Groundbreaking:  :  :  26 May 1962",
-                "Dedicated:  17 November 1964",
-                "Rededicated:  16 June 2019"
+                "Announced: 23 January 1961",
+                "Groundbreaking: 26 May 1962",
+                "Dedicated: 17 November 1964",
+                "Rededicated: 16 June 2019"
             ],
             "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
             "closures": {
@@ -53,10 +53,10 @@
             "image": "images/mesatemplesmall.jpg",
             "history": [
                 "Announced: 1 October 1919",
-                "Groundbreaking:  :  : 25 April 1922",
+                "Groundbreaking: 25 April 1922",
                 "Dedicated: 23 October 1927",
-                "Rededicated:  15 April 1975",
-                "Rededicated:  12 December 2021"
+                "Rededicated: 15 April 1975",
+                "Rededicated: 12 December 2021"
             ],
             "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
             "closures": [
@@ -95,7 +95,7 @@
             "image": "images/latemplesmall.jpg",
             "history": [
                 "Announced:  6 March 1937",
-                "Groundbreaking:  :  22 September 1951",
+                "Groundbreaking: 22 September 1951",
                 "Dedicated:  11 March 1956"
             ],
             "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
@@ -132,9 +132,9 @@
             ],
             "image": "images/rextemplesmall.jpg",
             "history": [
-                "Announced:  12 December 2003",
-                "Groundbreaking:  :  :  30 July 2005",
-                "Dedicated:  10 February 2008"
+                "Announced: 12 December 2003",
+                "Groundbreaking: 30 July 2005",
+                "Dedicated: 10 February 2008"
             ],
             "ordinances": "We are closed at this time, but we will be offering all ordinances by appointment soon.",
             "closures": [

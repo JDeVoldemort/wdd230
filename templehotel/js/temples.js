@@ -54,7 +54,7 @@ function displayTemples(tem) {
     closures.appendChild(close);
 
     });
-    let close = document.createElement('li');
+    // let close = document.createElement('li');
     // let close2 = document.createElement('li');
     // close.innerHTML = `${clss.year1}`;
     // close2.innerHTML = `${clss.year2}`;
