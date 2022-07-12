@@ -170,3 +170,9 @@ main div {
   text-align: center;
   background-color: var(--hcolor3a);
 }
+.cards section {
+  border: 1px solid;
+  padding: 1rem;
+  margin: 0.5rem;
+  box-shadow: 0 0 34px #333;
+}
