@@ -26,27 +26,20 @@ function displayTemples(tem) {
     history.innerHTML = `${tem.history}`;
     ordin.innerHTML = `${tem.ordinances}`;
     clss = tem['closures'];
-    // clss.forEach(breaklist1)
-    // function breaklist1(clss) {
-    //     year = clss['2022'];
-    //     year2 = clss['2023'];
-    //     console.table(year);
-    //     console.table(year1);
-    //     // year.foreach(breaklist2);
+    year1 = clss['2022'];
+    year2 = clss['2023'];
+    console.table(year1);
+    let close = document.createElement('li');
+    let close2 = document.createElement('li');
+    close.innerHTML = `${clss.year1}`;
+    close2.innerHTML = `${clss.year2}`;
+    console.log(close);
+    closures.appendChild(close);
+    closures.appendChild(close2);
+   // scrap lists in json when you see this and just submit services as a paragraph do the same with the closure dates. # ask what am missing in the layered lists. 
+    console.table(clss);
 
-    // }
-    // function breaklist2(yearlist) {
-
-    //     closures.appendChild
-    //     console.table(yearlist);
-    //     yearlist.forEach 
-
-    // }
-    // yearA = clss.2022;
-    // console.table(yearA);
-    // console.table(clss);
-
-    closures.innerHTML = `${tem.closures}`;
+    // closures.innerHTML = `${tem.closures}`;
 
     image.innerHTML = `${tem.image}`;
 
