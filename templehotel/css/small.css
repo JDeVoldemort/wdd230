@@ -170,9 +170,21 @@ main div {
   text-align: center;
   background-color: var(--hcolor3a);
 }
+.gridrep {
+  /* margin-left: 1rem; */
+  /* position: relative; */
+  display: grid;
+  grid-gap: 0.5em;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  justify-content: center;
+  text-align: center;
+}
 .cards section {
   border: 1px solid;
   padding: 1rem;
   margin: 0.5rem;
   box-shadow: 0 0 34px #333;
+}
+.cards section ul li {
+  list-style: none;
 }

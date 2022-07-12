@@ -34,24 +34,25 @@ function displayTemples(tem) {
 //   history.innerHTML = `${tem.history}`;
   ordin.innerHTML = `Ordinances: ${tem.ordinances}`;
   clss = tem["closures"];
-  let yeara = clss["2022"];
-  console.log(yeara);
-  yeara.forEach(function(val) {
-    let close = document.createElement("li");
-    console.log(close);
-
-    close.innerHTML = val;
-    closures.appendChild(close);
-  });
-  year2 = clss["2023"];
-
-  year2.forEach(function (val) {
+  clss.forEach(function (val) {
     let close = document.createElement("li");
     // console.log(close);
 
     close.innerHTML = val;
     closures.appendChild(close);
   });
+//   let yeara = clss["2022"];
+//   console.log(yeara);
+//   yeara.forEach(function(val) {
+//     let close = document.createElement("li");
+//     console.log(close);
+
+//     close.innerHTML = val;
+//     closures.appendChild(close);
+//   });
+//   year2 = clss["2023"];
+
+ 
   // let close = document.createElement('li');
   // let close2 = document.createElement('li');
   // close.innerHTML = `${clss.year1}`;

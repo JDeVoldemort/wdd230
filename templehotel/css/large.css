@@ -8,4 +8,7 @@ width: 10em;
 footer p, footer a {
     font-size: 1.6rem;
 }
+.gridrep {
+    grid-template-columns: repeat(auto-fit, minmax(300px,500px));
+}
 }
