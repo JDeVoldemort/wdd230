@@ -14,7 +14,7 @@ function displayTemples(tem) {
     let services = document.createElement('p');
     let history = document.createElement('p');
     let ordin = document.createElement('p');
-    let closures = document.createElement('ul');
+    var closures = document.createElement('ul');
     let image = document.createElement('img');
     
     name.innerHTML = `${tem.name}`;
@@ -27,17 +27,33 @@ function displayTemples(tem) {
     ordin.innerHTML = `${tem.ordinances}`;
     clss = tem['closures'];
     year1 = clss['2022'];
-    year2 = clss['2023'];
     console.table(year1);
-    let close = document.createElement('li');
-    let close2 = document.createElement('li');
-    close.innerHTML = `${clss.year1}`;
-    close2.innerHTML = `${clss.year2}`;
+    year1.forEach(function(val){
+        let close = document.createElement('li');
     console.log(close);
+
+        close.innerHTML = val;
     closures.appendChild(close);
-    closures.appendChild(close2);
+
+    });
+    year2 = clss['2023'];
+
+    year2.forEach(function(val){
+        let close = document.createElement('li');
+    console.log(close);
+
+        close.innerHTML = val;
+    closures.appendChild(close);
+
+    });
+    let close = document.createElement('li');
+    // let close2 = document.createElement('li');
+    // close.innerHTML = `${clss.year1}`;
+    // close2.innerHTML = `${clss.year2}`;
+    // closures.appendChild(close2);
+
    // scrap lists in json when you come back in the morning and just submit services as a paragraph do the same with the closure dates. # ask what am missing in the layered lists. 
-    console.table(clss);
+    // console.table(clss);
 
     // closures.innerHTML = `${tem.closures}`;
 
