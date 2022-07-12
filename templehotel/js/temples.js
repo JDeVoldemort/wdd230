@@ -12,7 +12,7 @@ function displayTemples(tem) {
     let phone = document.createElement('p');
     let email = document.createElement('p');
     let services = document.createElement('p');
-    let history = document.createElement('p');
+    var history = document.createElement('ul');
     let ordin = document.createElement('p');
     var closures = document.createElement('ul');
     let image = document.createElement('img');
@@ -22,15 +22,23 @@ function displayTemples(tem) {
     phone.innerHTML = `${tem.phone}`;
     email.innerHTML = `${tem.email}`;
     services.innerHTML = `${tem.services}`;
+    hist = tem['history'];
+    hist.forEach(function(val){
+        let close = document.createElement('li');
+    // console.log(close);
 
+        close.innerHTML = val;
+    history.appendChild(close);
+
+    });
     history.innerHTML = `${tem.history}`;
     ordin.innerHTML = `${tem.ordinances}`;
     clss = tem['closures'];
     year1 = clss['2022'];
-    console.table(year1);
+    // console.table(year1);
     year1.forEach(function(val){
         let close = document.createElement('li');
-    console.log(close);
+    // console.log(close);
 
         close.innerHTML = val;
     closures.appendChild(close);
@@ -40,7 +48,7 @@ function displayTemples(tem) {
 
     year2.forEach(function(val){
         let close = document.createElement('li');
-    console.log(close);
+    // console.log(close);
 
         close.innerHTML = val;
     closures.appendChild(close);
