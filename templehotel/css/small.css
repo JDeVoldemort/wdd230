@@ -209,7 +209,7 @@ main div {
   background: url(../images/unlike.svg);
 }
 .ylike {
-  background-image: url(../images/like.svg);
+  background: url(../images/like.svg);
 }
 
 .form {

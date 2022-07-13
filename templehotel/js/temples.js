@@ -1,6 +1,9 @@
 const requestURL =
   "https://jdevoldemort.github.io/wdd230/templehotel/json/data.json";
 const cards = document.querySelector(".cards");
+let counter = 0;
+let counterA = 0;
+let buttons = [];
 // const gridbutton = document.querySelector("#grid");
 // const listbutton = document.querySelector("#list");
 
@@ -42,30 +45,10 @@ function displayTemples(tem) {
     close.innerHTML = val;
     closures.appendChild(close);
   });
-//   let yeara = clss["2022"];
-//   console.log(yeara);
-//   yeara.forEach(function(val) {
-//     let close = document.createElement("li");
-//     console.log(close);
 
-//     close.innerHTML = val;
-//     closures.appendChild(close);
-//   });
-//   year2 = clss["2023"];
-
- 
-  // let close = document.createElement('li');
-  // let close2 = document.createElement('li');
-  // close.innerHTML = `${clss.year1}`;
-  // close2.innerHTML = `${clss.year2}`;
-  // closures.appendChild(close2);
-
-  // scrap lists in json when you come back in the morning and just submit services as a paragraph do the same with the closure dates. # ask what am missing in the layered lists.
-  // console.table(clss);
-
-  // closures.innerHTML = `${tem.closures}`;
-
+  counterA+=1;
   image.innerHTML = `${tem.image}`;
+  console.log(`unLiked${counter}, ${counterA}`);
 
   image.setAttribute("src", `${tem.image}`);
   image.setAttribute("alt", `The logo of ${tem.name}`);
@@ -73,7 +56,13 @@ function displayTemples(tem) {
   image.setAttribute("width", `300px`);
   // image.setAttribute('height',`auto`);
   image.setAttribute("loading", `lazy`);
-  likeBtn.classList.add('likebtn', 'hover', 'nolike', 'empad5');
+  if ((window.localStorage.getItem(`button${counterA}`))!='1') {
+    likeBtn.classList.add('nolike');
+  }else {
+    likeBtn.classList.add('ylike');
+  }
+
+  likeBtn.classList.add('likebtn', 'hover', 'empad5');
 //   likeBtn.classList.add(`curve`);
   likeBtn.setAttribute("width", `100%`);
 
@@ -91,12 +80,45 @@ function displayTemples(tem) {
 
   document.querySelector("div.cards").appendChild(card);
 }
+const likeBtnListen = async () => {
+const likeBtns = document.querySelectorAll('div.likebtn');
+    
+     console.log(likeBtns);
 
+     likeBtns.forEach(likeBtn => {
+        //  window.localStorage.setItem(`${event.like}`, 'nolike');
+     counter += 1;
+
+        let button = `button${counter}`;
+        buttons.push(button);
+        console.table(buttons);
+        // window.localStorage.setItem(`button${counter}`, '0');
+         console.log(window.localStorage);
+         likeBtn.addEventListener("click", (event)=> {
+             event.target.classList.toggle("nolike");
+             event.target.classList.toggle("ylike");
+            //  if (event.target.classList.contains("ylike")) {
+                 if ((window.localStorage.getItem(`${buttons[button-1]}`))=='0') {
+                     window.localStorage.setItem(`${buttons[button-1]}`,'1');
+                 console.log('Liked');
+
+                     }
+                 else {
+                     window.localStorage.setItem(`${buttons[button-1]}`, '0');
+                 console.log(`unLiked${counter}, ${counterA}`);
+                 }
+                }
+
+         )})
+                
+            
+   
+ }
 async function getPatrons(requestURL) {
   const response = await fetch(requestURL);
   if (response.ok) {
     const data = await response.json();
-    console.table(data);
+    // console.table(data);
     makeList(data);
   }
 }
@@ -105,39 +127,12 @@ async function makeList(data) {
   temples = data["temples"];
 
   temples.forEach(displayTemples);
+  likeBtnListen();
 }
 
 getPatrons(requestURL);
-const likeBtnListen = () => {
-    const likeBtns = document.querySelectorAll('.likebtn');
-    likeBtns.forEach(likeBtn => {
-        window.localStorage.setItem('event.like', 'nolike');
-        console.log(window.localStorage);
-        likeBtn.addEventListener("click", (event)=> {
-            event.target.classList.toggle("nolike");
-            event.target.classList.toggle("ylike");
-            if (event.target.classList.contains("ylike")) {
-                if ((window.localStorage.getItem('event.like'))=='nolike' || (window.localStorage.getItem('event.like'))== null) {
-                    window.localStorage.setItem('event.like', 'ylike');
-                    }
-                else {
-                    window.localStorage.setItem('event.like', 'nolike');
-                console.log('Liked');
-            }} else {
-                console.log('Unliked');
-            }
-        })
-        
-    })
-    // const likeToLocal = (event) => {
-    //     if ((localStorage.getItem('event.like'))=='nolike' || (localStorage.getItem('event.like'))== undefined) {
-    //     localStorage.setItem('event.like', 'ylike');
-    //     }
-    // else {
-    //     localStorage.setItem('event.like', 'nolike');
-    // }}
-}
-likeBtnListen();
+
+// likeBtnListen();
 
 // const temimg = document.querySelectorAll('cards.section.img.temimg');
 
