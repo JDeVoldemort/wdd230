@@ -17,6 +17,7 @@ function displayTemples(tem) {
   let ordin = document.createElement("p");
   let closures = document.createElement("ul");
   let image = document.createElement("img");
+  let likeBtn = document.createElement("div")
 
   name.innerHTML = `${tem.name}`;
   address.innerHTML = `${tem.address}`;
@@ -72,8 +73,12 @@ function displayTemples(tem) {
   image.setAttribute("width", `300px`);
   // image.setAttribute('height',`auto`);
   image.setAttribute("loading", `lazy`);
+  likeBtn.classList.add('likebtn', 'hover', 'nolike', 'empad5');
+//   likeBtn.classList.add(`curve`);
+  likeBtn.setAttribute("width", `100%`);
 
   // append items to card
+  card.appendChild(likeBtn);
   card.appendChild(name);
   card.appendChild(image);
   card.appendChild(address);
@@ -103,6 +108,36 @@ async function makeList(data) {
 }
 
 getPatrons(requestURL);
+const likeBtnListen = () => {
+    const likeBtns = document.querySelectorAll('.likebtn');
+    likeBtns.forEach(likeBtn => {
+        window.localStorage.setItem('event.like', 'nolike');
+        console.log(window.localStorage);
+        likeBtn.addEventListener("click", (event)=> {
+            event.target.classList.toggle("nolike");
+            event.target.classList.toggle("ylike");
+            if (event.target.classList.contains("ylike")) {
+                if ((window.localStorage.getItem('event.like'))=='nolike' || (window.localStorage.getItem('event.like'))== null) {
+                    window.localStorage.setItem('event.like', 'ylike');
+                    }
+                else {
+                    window.localStorage.setItem('event.like', 'nolike');
+                console.log('Liked');
+            }} else {
+                console.log('Unliked');
+            }
+        })
+        
+    })
+    // const likeToLocal = (event) => {
+    //     if ((localStorage.getItem('event.like'))=='nolike' || (localStorage.getItem('event.like'))== undefined) {
+    //     localStorage.setItem('event.like', 'ylike');
+    //     }
+    // else {
+    //     localStorage.setItem('event.like', 'nolike');
+    // }}
+}
+likeBtnListen();
 
 // const temimg = document.querySelectorAll('cards.section.img.temimg');
 

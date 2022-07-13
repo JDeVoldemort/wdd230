@@ -64,7 +64,7 @@ body p {
   color: var(--onlighttext);
 }
 
-.hover a {
+.hover a , .hover div{
   border-radius: 5px 5px 5px 5px;
   background-color: var(--hcolor);
   border: 1px solid var(--hcolor3a);
@@ -76,7 +76,7 @@ body p {
   -o-border-radius: 5px 5px 5px 5px;
 }
 
-.hover a:hover {
+.hover a:hover, .hover div:hover {
   background-color: var(--hcolor2);
   color: var(--onlighttext);
 }
@@ -187,4 +187,17 @@ main div {
 }
 .cards section ul li {
   list-style: none;
+}
+.likebtn {
+  width: 40px;
+  height: 40px;
+  /* position:absolute; */
+  top: 3%;
+  right: 3%;
+}
+.nolike{
+  background: url(../images/unlike.svg);
+}
+.ylike {
+  background-image: url(../images/like.svg);
 }

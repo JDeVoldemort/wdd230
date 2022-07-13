@@ -80,7 +80,65 @@
       <!-- </section> -->
       <!-- <div id="dateHeader"><span id="todaydate"></span></div> -->
     </header>
-    <main></main>
+    <main>
+        <form class="form" method="get" action="thankyou.html">
+            <fieldset>
+              <legend class="title empad5">Request a Reservation</legend>
+              <label class="curve empad5"
+                >First Name* <input type="text" name="fname" required
+              /></label>
+              <label class="curve empad5"
+                >Last Name* <input type="text" name="lname" required
+              /></label>
+    
+              <label class="curve empad5"
+                >Phone*
+                <input type="tel" name="phone" placeholder="1235551234" required
+              /></label>
+              <label class="curve empad5"
+                >Email*
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="eternity@gmail.com"
+                  required
+              /></label>
+              <label class="curve empad5"
+                >The place you call Home:
+                <input
+                  type="text"
+                  name="home"
+                  placeholder="Home State/Country"
+                  required
+              /></label>
+              
+              <label class="curve empad5"
+                >The place you call Home:
+                <input
+                  type="date"
+                  name="date"
+                  placeholder="9/18/2022"
+                  required
+              /></label>
+              <label class="curve empad5"
+                >The place you call Home:
+                <input
+                  type="number"
+                  name="rooms"
+                  placeholder="1-13"
+                  required
+              /></label>
+              <label class="curve empad5">
+                Your message to us:
+                <textarea
+                  name="message"
+                  rows="8"
+                  placeholder="I would love to plan a trip to the temple this summer. What are the accomidations like for families needing special accomidations?"
+                ></textarea>
+              </label>
+              <input type="submit" value="Confirm Reservaion" class="submitBtn" />
+      </form>
+    </main>
     <footer class="empad grid curve">
         <picture class="footerlogo">
             <img class="curve" src="images/tislogo.jpg" alt="Temple Inn & Suites Logo" />
