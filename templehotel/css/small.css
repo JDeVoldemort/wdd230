@@ -38,6 +38,11 @@ html {
 .onefont5 {
   font-size: 1.5rem;
 }
+.justcenter {
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
 
 header, footer {
   background-color: var(--hfcolor);
@@ -64,7 +69,7 @@ body p {
   color: var(--onlighttext);
 }
 
-.hover a , .hover div{
+.hover a , .hover div, .hover input {
   border-radius: 5px 5px 5px 5px;
   background-color: var(--hcolor);
   border: 1px solid var(--hcolor3a);
@@ -76,7 +81,7 @@ body p {
   -o-border-radius: 5px 5px 5px 5px;
 }
 
-.hover a:hover, .hover div:hover {
+.hover a:hover, .hover div:hover, .hover input:hover {
   background-color: var(--hcolor2);
   color: var(--onlighttext);
 }
@@ -101,6 +106,11 @@ body p {
   -ms-border-radius: 5px 5px 5px 5px;
   -o-border-radius: 5px 5px 5px 5px;
 }
+/* .noborder {
+  border-radius: none;
+  border: transparent;
+
+} */
 header {
   grid-template-columns: 40px 2fr 1fr .5fr;
 }
@@ -200,4 +210,32 @@ main div {
 }
 .ylike {
   background-image: url(../images/like.svg);
+}
+
+.form {
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.radio {
+  display: flex;
+  flex-direction: column;
+}
+
+.label input, .label textarea {
+  width: 80%;
+  margin: 2rem;
+  padding: .5rem;
+  border: 1px solid var(--hcolor3a);
+  border-radius: 5px 5px 5px 5px;
+}
+.radio {
+  display: block;
+  padding: 1rem;
+  /* font-size: 0.9rem; */
+}
+.radio input {
+  display: inline-block;
+  margin: .7rem;
+
 }
