@@ -221,7 +221,10 @@ main div {
   display: flex;
   flex-direction: column;
 }
+.label {
+  display: inline-block;
 
+}
 .label input, .label textarea {
   width: 80%;
   margin: 2rem;
@@ -236,6 +239,8 @@ main div {
 }
 .radio input {
   display: inline-block;
-  margin: .7rem;
+  margin: 1rem;
+  width: 45px;
+  height: 45px;
 
 }
