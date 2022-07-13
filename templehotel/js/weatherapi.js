@@ -39,8 +39,7 @@ async function apiFetch() {
   function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.current.temp.toFixed(0)}</strong>`;
 
-    // weather icon works, but not for daily. same with temph and templ
-    // check index of daily
+//   Still need to Change days on forcast using todays date
     temphA.innerHTML = `<strong>${weatherData.daily[0].temp.max.toFixed(0)}</strong>`;
     temphB.innerHTML = `<strong>${weatherData.daily[0].temp.max.toFixed(0)}</strong>`;
     temphC.innerHTML = `<strong>${weatherData.daily[0].temp.max.toFixed(0)}</strong>`;
@@ -50,7 +49,7 @@ async function apiFetch() {
     humid1.innerHTML = `<strong>${weatherData.daily[0].humidity.toFixed(0)}</strong>`;
     humid2.innerHTML = `<strong>${weatherData.daily[0].humidity.toFixed(0)}</strong>`;
     humid3.innerHTML = `<strong>${weatherData.daily[0].humidity.toFixed(0)}</strong>`;
-    windspv.innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)}</strong>`;
+
     const iconsrc = `http://openweathermap.org/img/wn/${weatherData.current.weather[0].icon}@2x.png`;
     const desc = weatherData.current.weather[0].description;
     const iconsrc1 = `https://openweathermap.org/img/wn/${weatherData.daily[0].weather[0].icon}@2x.png`;
@@ -70,20 +69,3 @@ async function apiFetch() {
     icon2.setAttribute('alt', desc2);
     icon3.setAttribute('alt', desc3);
   }
-//     const ctemp = weatherData.main.temp.toFixed(0);
-//     const cwindspv = weatherData.wind.speed.toFixed(0);
-//     if (ctemp <= 50 && cwindspv > 3) {
-//       let f =
-//         35.74 +
-//        (0.6215 * ctemp) -
-//         (35.75 * ctemp * Math.pow(cwindspv, 0.16));
-//       f = f.toPrecision(3);
-//       windchu.textContent = `${f}℉`;
-//     } else {
-//       f = "N/A";
-//       windchu.textContent = f;
-//     }
-//   }
-
-  
-    
