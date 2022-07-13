@@ -80,22 +80,30 @@
       <!-- </section> -->
       <!-- <div id="dateHeader"><span id="todaydate"></span></div> -->
     </header>
-    <main>
-        <form class="form" method="get" action="thankyou.html">
-            <fieldset>
-              <legend class="title empad5">Request a Reservation</legend>
-              <label class="curve empad5"
+    <main class="flex">
+        <form class="form grid gap onefont5 empad" method="get" action="thankyou.html">
+            <fieldset class="empad5 curve">
+              <legend class="title curve empad5 onefont">Request a Reservation</legend>
+              <fieldset class="curve empad5">
+              <legend class="curve empad5">Choose a Location: </legend>
+              
+              <label class="curve empad5 radio"><input name="local" type="radio"/>Mesa Arizona</label>
+              <label class="curve empad5 radio"><input name="local" type="radio"/>Oakland California</label>
+              <label class="curve empad5 radio"><input name="local" type="radio"/>LA California</label>
+              <label class="curve empad5 radio"><input name="local" type="radio"/>Rexburg Idaho</label>
+            </fieldset>
+              <label class="curve empad5 label"
                 >First Name* <input type="text" name="fname" required
               /></label>
-              <label class="curve empad5"
+              <label class="curve empad5 label"
                 >Last Name* <input type="text" name="lname" required
               /></label>
     
-              <label class="curve empad5"
+              <label class="curve empad5 label"
                 >Phone*
                 <input type="tel" name="phone" placeholder="1235551234" required
               /></label>
-              <label class="curve empad5"
+              <label class="curve empad5 label"
                 >Email*
                 <input
                   type="email"
@@ -103,7 +111,7 @@
                   placeholder="eternity@gmail.com"
                   required
               /></label>
-              <label class="curve empad5"
+              <label class="curve empad5 label"
                 >The place you call Home:
                 <input
                   type="text"
@@ -111,24 +119,26 @@
                   placeholder="Home State/Country"
                   required
               /></label>
-              
-              <label class="curve empad5"
-                >The place you call Home:
+            </fieldset>
+            <fieldset class="empad5 curve">
+              <label class="curve empad5 label"
+                >Reservation Date*
                 <input
                   type="date"
                   name="date"
                   placeholder="9/18/2022"
                   required
               /></label>
-              <label class="curve empad5"
-                >The place you call Home:
+              <label class="curve empad5 label"
+                >Number of rooms: 1-13
                 <input
                   type="number"
                   name="rooms"
-                  placeholder="1-13"
+                  placeholder="1-13"  min="0" max="13"
                   required
               /></label>
-              <label class="curve empad5">
+              <fieldset class="curve empad5">
+              <label class="curve empad5 label">
                 Your message to us:
                 <textarea
                   name="message"
@@ -136,7 +146,10 @@
                   placeholder="I would love to plan a trip to the temple this summer. What are the accomidations like for families needing special accomidations?"
                 ></textarea>
               </label>
-              <input type="submit" value="Confirm Reservaion" class="submitBtn" />
+            </fieldset>
+            </fieldset>
+            <fieldset class="hover curve empad5">
+              <input type="submit" value="Confirm Reservaion" class="submitBtn onefont5 empad" /></fieldset>
       </form>
     </main>
     <footer class="empad grid curve">
