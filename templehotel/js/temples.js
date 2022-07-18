@@ -3,7 +3,7 @@ const requestURL =
 const cards = document.querySelector(".cards");
 let counter = 0;
 let counterA = 0;
-let buttons = [];
+const buttons = [];
 // const gridbutton = document.querySelector("#grid");
 // const listbutton = document.querySelector("#list");
 
@@ -56,13 +56,19 @@ function displayTemples(tem) {
   image.setAttribute("width", `300px`);
   // image.setAttribute('height',`auto`);
   image.setAttribute("loading", `lazy`);
-  if ((window.localStorage.getItem(`button${counterA}`))!='1') {
+  if (typeof (window.localStorage.getItem(`button${counterA}`)) == 'undefined') {
+    window.localStorage.setItem(`button${counterA}`, '0');
+
+  }else {
+  if ((window.localStorage.getItem(`button${counterA}`))=='0') {
     likeBtn.classList.add('nolike');
   }else {
     likeBtn.classList.add('ylike');
   }
+  }
 
-  likeBtn.classList.add('likebtn', 'hover', 'empad5');
+  likeBtn.classList.add('likebtn', 'hover', 'empad5',`button${counterA}`);
+  buttons.push(`button${counterA}`);
 //   likeBtn.classList.add(`curve`);
   likeBtn.setAttribute("width", `100%`);
 
@@ -81,31 +87,31 @@ function displayTemples(tem) {
   document.querySelector("div.cards").appendChild(card);
 }
 const likeBtnListen = async () => {
-const likeBtns = document.querySelectorAll('div.likebtn');
+// const likeBtns = document.querySelectorAll('div.likebtn');
     
-     console.log(likeBtns);
+    //  console.log(likeBtns);
 
-     likeBtns.forEach(likeBtn => {
+     buttons.forEach(likeBtn => {
         //  window.localStorage.setItem(`${event.like}`, 'nolike');
-     counter += 1;
-
-        let button = `button${counter}`;
-        buttons.push(button);
-        console.table(buttons);
+    //  counter += 1;
+        let btn = document.querySelector(`.${likeBtn}`);
+        // let button = `button${counter}`;
+        // buttons.push(button);
+        // console.table(buttons);
         // window.localStorage.setItem(`button${counter}`, '0');
          console.log(window.localStorage);
-         likeBtn.addEventListener("click", (event)=> {
+         btn.addEventListener("click", (event)=> {
              event.target.classList.toggle("nolike");
              event.target.classList.toggle("ylike");
             //  if (event.target.classList.contains("ylike")) {
-                 if ((window.localStorage.getItem(`${buttons[button-1]}`))=='0') {
-                     window.localStorage.setItem(`${buttons[button-1]}`,'1');
-                 console.log('Liked');
+                 if ((window.localStorage.getItem(`${likeBtn}`))=='0') {
+                     window.localStorage.setItem(`${likeBtn}`,'1');
+                 console.log(`Liked${likeBtn}`);
 
                      }
                  else {
-                     window.localStorage.setItem(`${buttons[button-1]}`, '0');
-                 console.log(`unLiked${counter}, ${counterA}`);
+                     window.localStorage.setItem(`${likeBtn}`, '0');
+                 console.log(`${counter}, A${counterA}`);
                  }
                 }
 
@@ -114,6 +120,7 @@ const likeBtns = document.querySelectorAll('div.likebtn');
             
    
  }
+
 async function getPatrons(requestURL) {
   const response = await fetch(requestURL);
   if (response.ok) {
@@ -131,6 +138,7 @@ async function makeList(data) {
 }
 
 getPatrons(requestURL);
+
 
 // likeBtnListen();
 
