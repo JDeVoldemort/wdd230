@@ -157,7 +157,10 @@ nav {
 .none a {
   display: none;
 }
-
+/* .darkbtn {
+  position: absolute;
+  justify-self: right;
+} */
 .titles {
   /* display: block; */
   grid-column: 2/3;
@@ -177,7 +180,10 @@ footer {
 }
 /* main rules */
 
-main div {
+.light, .light div {
+  background-color: var(--bgcolor);
+}
+.dark, .dark div {
   background-color: var(--hcolor3);
 }
 .title {

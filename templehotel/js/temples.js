@@ -106,12 +106,12 @@ const likeBtnListen = async () => {
             //  if (event.target.classList.contains("ylike")) {
                  if ((window.localStorage.getItem(`${likeBtn}`))=='0') {
                      window.localStorage.setItem(`${likeBtn}`,'1');
-                 console.log(`Liked${likeBtn}`);
+                //  console.log(`Liked${likeBtn}`);
 
                      }
                  else {
                      window.localStorage.setItem(`${likeBtn}`, '0');
-                 console.log(`${counter}, A${counterA}`);
+                //  console.log(`${counter}, A${counterA}`);
                  }
                 }
 
