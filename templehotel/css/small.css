@@ -21,16 +21,26 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
-
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: 'Inconsolata', monospace;
+  font-size: 100%; /* 1 */
+}
+input, textarea {
+  background-color: var(--bgcolor);
+}
 /* common classes */
-.empad {
+.empad, .empad p, .empad h3, .empad h4 {
   padding: 1em;
 }
-.empad5 {
+.empad5, .empad5 p, .empad5 h3, .empad5 h4, .empad5 a {
   padding: .5em;
 }
 .mmarg {
-  margin: .2rem;
+  margin: .9rem;
 }
 .onefont {
   font-size: 2rem;

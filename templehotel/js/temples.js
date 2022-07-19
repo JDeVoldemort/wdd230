@@ -22,6 +22,7 @@ function displayTemples(tem) {
   let image = document.createElement("img");
   let likeBtn = document.createElement("div")
 
+  name.classList.add('onefont5');
   name.innerHTML = `${tem.name}`;
   address.innerHTML = `${tem.address}`;
   phone.innerHTML = `${tem.phone}`;
@@ -83,6 +84,7 @@ function displayTemples(tem) {
   card.appendChild(history);
   card.appendChild(ordin);
   card.appendChild(closures);
+  card.classList.add('empad');
 
   document.querySelector("div.cards").appendChild(card);
 }
