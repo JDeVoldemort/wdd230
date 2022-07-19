@@ -132,13 +132,13 @@ header {
   display: block;
   border: none;
 }
-.navigate li {
+.navigate li, .navigate div{
   display: none;
 }
 .respond {
   position:absolute;
 }
-.respond li:first-child {
+.respond li:first-child, .respond div:first-child {
   position:relative;
 }
 .respond li {
@@ -153,7 +153,15 @@ header {
 nav {
   position: absolute;
 }
-
+/* .subnav {
+  overflow: hidden;
+} */
+.none a {
+  display: none;
+}
+/* .subnav:hover .subnav-content a{
+  display: block;
+} */
 .titles {
   /* display: block; */
   grid-column: 2/3;
