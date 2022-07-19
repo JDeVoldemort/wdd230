@@ -14,7 +14,6 @@ menubtn.addEventListener(
 subnav.addEventListener(
   "mouseover",
   (event) => {
-    // console.table(subnavC);
     subnavC1.classList.toggle("none");
     subnavC2.classList.toggle("none");
 
@@ -23,9 +22,6 @@ subnav.addEventListener(
     subnavC2.classList.toggle("none");
 
     }, 10000);
-    // subnavC.forEach(sub => {
-    // sub.classList.toggle("none");
-    // })
   },
   false
 );
