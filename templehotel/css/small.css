@@ -54,7 +54,7 @@ footer p, footer a {
 }
 body {
  font-family: 'The Girl Next Door', cursive;
- min-width: 370px;
+ min-width: 360px;
 }
 
 body p {
@@ -153,15 +153,11 @@ header {
 nav {
   position: absolute;
 }
-/* .subnav {
-  overflow: hidden;
-} */
+
 .none a {
   display: none;
 }
-/* .subnav:hover .subnav-content a{
-  display: block;
-} */
+
 .titles {
   /* display: block; */
   grid-column: 2/3;
