@@ -154,13 +154,15 @@ nav {
   position: absolute;
 }
 
-.none a {
+.none a, .none div, .none, .none span{
   display: none;
 }
-/* .darkbtn {
-  position: absolute;
-  justify-self: right;
-} */
+.closebtn {
+  display: inline;
+  /* position: absolute; */
+  width: em;
+  /* justify-self: right; */
+}
 .titles {
   /* display: block; */
   grid-column: 2/3;
@@ -189,6 +191,9 @@ footer {
 .title {
   text-align: center;
   background-color: var(--hcolor3a);
+}
+.cap {
+  text-transform: capitalize;
 }
 .gridrep {
   /* margin-left: 1rem; */

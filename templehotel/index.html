@@ -19,8 +19,9 @@
     <link rel="stylesheet" href="css/large.css" />
   </head>
   <body>
-    <div class="weatheralert">
-      <span></span>
+    <div class="weatheralertban none hover empad">
+      <span class="weatheralert cap empad5"></span>
+      <div class='closebtn onefont mmarg'>🗑</div>
     </div>
 
     <header class="empad grid curve">
@@ -92,11 +93,11 @@
             <a class="onefont5 empad5 curve" href="reservation.html">Plan my Trip now</a>
         </div>
         <div class="weather empad curve">
-        <p id="weatherheader">Weather</p>
+        <h3 class="onefont5">Weather</h3>
 
         <img id="weathericon" src="#" alt="" />
-        <p id="temperature">High <span id="temp"></span> ℉ / Low<span id="templ"></span> ℉ </p>
-        <p id="skies"><span></span></p>
+        <p id="temperature"><span id="temp"></span> ℉</p>
+        <p class="skies cap"></p>
         <p id="humid"><span></span></p>
         <!-- <p id="windsp">Wind Speed:</p>
         <p id="windch">Wind Chill:</p>
@@ -106,21 +107,25 @@
       </div>
       <div class="weather2 empad curve">
         <section class="day1">
+            <p class="wday1"></p>
             <img class="weathericon icon1" src="#" alt="" />
             <p class="temper">High <span class="temph1"></span> ℉/ Low <span class="templ1"></span> ℉</p>
-            <p class="humid"><span class="humid1"></span> % Humidity</p>
+            <p class="humid">Humidity <span class="humid1"></span>%</p>
 
         </section>
         <section class="day2">
+            <p class="wday2"></p>
             <img class="weathericon icon2" src="#" alt="" />
             <p class="temper">High <span class="temph2"></span> ℉/ Low <span class="templ2"></span> ℉</p>
-            <p class="humid"><span class="humid2"></span> % Humidity</p>
+            <p class="humid">Humidity<span class="humid2"></span>%</p>
 
         </section>
         <section class="day3">
+            <p class="wday3"></p>
+
             <img class="weathericon icon3" src="#" alt="" />
             <p class="temper">High <span class="temph3"></span> ℉/ Low <span class="templ3"></span> ℉</p>
-            <p class="humid"><span class="humid3"></span> % Humidity</p>
+            <p class="humid">Humidity <span class="humid3"></span>%</p>
 
         </section>
       </div>
