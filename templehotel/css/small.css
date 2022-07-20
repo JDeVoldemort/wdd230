@@ -36,7 +36,7 @@ input, textarea {
 .empad, .empad p, .empad h3, .empad h4 {
   padding: 1em;
 }
-.empad5, .empad5 p, .empad5 h3, .empad5 h4, .empad5 a {
+.empad5, .empad5 p, .empad5 h3, .empad5 h4, .empad5 a, empad5 li {
   padding: .5em;
 }
 .mmarg {
@@ -67,7 +67,7 @@ body {
  min-width: 360px;
 }
 
-body p {
+body p, body ul {
   font-family: 'Inconsolata', monospace;
 }
 
