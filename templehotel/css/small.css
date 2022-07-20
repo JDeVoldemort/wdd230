@@ -26,21 +26,30 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   font-size: 100%; /* 1 */
 }
-input, textarea {
+input,
+textarea {
   background-color: var(--bgcolor);
 }
 /* common classes */
-.empad, .empad p, .empad h3, .empad h4 {
+.empad,
+.empad p,
+.empad h3,
+.empad h4 {
   padding: 1em;
 }
-.empad5, .empad5 p, .empad5 h3, .empad5 h4, .empad5 a, empad5 li {
-  padding: .5em;
+.empad5,
+.empad5 p,
+.empad5 h3,
+.empad5 h4,
+.empad5 a,
+empad5 li {
+  padding: 0.5em;
 }
 .mmarg {
-  margin: .9rem;
+  margin: 0.9rem;
 }
 .onefont {
   font-size: 2rem;
@@ -54,21 +63,23 @@ input, textarea {
   align-items: center;
 }
 
-header, footer {
+header,
+footer {
   background-color: var(--hfcolor);
 }
 
-
-footer p, footer a {
-  padding: .3rem;
+footer p,
+footer a {
+  padding: 0.3rem;
 }
 body {
- font-family: 'The Girl Next Door', cursive;
- min-width: 360px;
+  font-family: "The Girl Next Door", cursive;
+  min-width: 360px;
 }
 
-body p, body ul {
-  font-family: 'Inconsolata', monospace;
+body p,
+body ul {
+  font-family: "Inconsolata", monospace;
 }
 
 .ondarktext {
@@ -79,7 +90,9 @@ body p, body ul {
   color: var(--onlighttext);
 }
 
-.hover a , .hover div, .hover input {
+.hover a,
+.hover div,
+.hover input {
   border-radius: 5px 5px 5px 5px;
   background-color: var(--hcolor);
   border: 1px solid var(--hcolor3a);
@@ -91,7 +104,9 @@ body p, body ul {
   -o-border-radius: 5px 5px 5px 5px;
 }
 
-.hover a:hover, .hover div:hover, .hover input:hover {
+.hover a:hover,
+.hover div:hover,
+.hover input:hover {
   background-color: var(--hcolor2);
   color: var(--onlighttext);
 }
@@ -107,7 +122,7 @@ body p, body ul {
   display: flex;
 }
 .gap {
-  grid-gap: .4rem;
+  grid-gap: 0.4rem;
 }
 .curve {
   border-radius: 5px 5px 5px 5px;
@@ -122,7 +137,7 @@ body p, body ul {
 
 } */
 header {
-  grid-template-columns: 40px 2fr 1fr .5fr;
+  grid-template-columns: 40px 2fr 1fr 0.5fr;
 }
 .social {
   grid-column: 4/5;
@@ -142,14 +157,16 @@ header {
   display: block;
   border: none;
 }
-.navigate li, .navigate div{
+.navigate li,
+.navigate div {
   display: none;
 }
 .respond {
-  position:absolute;
+  position: absolute;
 }
-.respond li:first-child, .respond div:first-child {
-  position:relative;
+.respond li:first-child,
+.respond div:first-child {
+  position: relative;
 }
 .respond li {
   display: block;
@@ -164,7 +181,10 @@ nav {
   position: absolute;
 }
 
-.none a, .none div, .none, .none span{
+.none a,
+.none div,
+.none,
+.none span {
   display: none;
 }
 .closebtn {
@@ -192,10 +212,12 @@ footer {
 }
 /* main rules */
 
-.light, .light div {
+.light,
+.light div {
   background-color: var(--bgcolor);
 }
-.dark, .dark div {
+.dark,
+.dark div {
   background-color: var(--hcolor3);
 }
 .title {
@@ -230,7 +252,7 @@ footer {
   top: 3%;
   right: 3%;
 }
-.nolike{
+.nolike {
   background: url(../images/unlike.svg);
 }
 .ylike {
@@ -240,7 +262,6 @@ footer {
 .form {
   flex-direction: column;
   justify-content: space-evenly;
-
 }
 .radio {
   display: flex;
@@ -248,12 +269,12 @@ footer {
 }
 .label {
   display: inline-block;
-
 }
-.label input, .label textarea {
+.label input,
+.label textarea {
   width: 80%;
   margin: 2rem;
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px solid var(--hcolor3a);
   border-radius: 5px 5px 5px 5px;
 }
@@ -267,5 +288,4 @@ footer {
   margin: 1rem;
   width: 45px;
   height: 45px;
-
 }
