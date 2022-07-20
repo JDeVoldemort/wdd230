@@ -45,7 +45,7 @@ textarea {
 .empad5 h3,
 .empad5 h4,
 .empad5 a,
-empad5 li {
+.empad5 li, .empad5 input {
   padding: 0.5em;
 }
 .mmarg {
@@ -121,6 +121,9 @@ body ul {
 .flex {
   display: flex;
 }
+/* .flexcol {
+  flex-direction: column;
+} */
 .gap {
   grid-gap: 0.4rem;
 }
@@ -267,11 +270,22 @@ footer {
   display: flex;
   flex-direction: column;
 }
-.label {
+/* .visually-hidden {
+  border-width: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute;
+  white-space: nowrap !important;
+  width: 1px !important;
+} */
+/* .label {
   display: inline-block;
-}
+} */
 .label input,
 .label textarea {
+  /* position: relative; */
   width: 80%;
   margin: 2rem;
   padding: 0.5rem;
