@@ -190,7 +190,7 @@ nav {
 .closebtn {
   display: inline;
   /* position: absolute; */
-  width: em;
+  width: 1em;
   /* justify-self: right; */
 }
 .titles {
