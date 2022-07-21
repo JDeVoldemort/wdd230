@@ -11,4 +11,24 @@ footer p, footer a {
 .gridrep {
     grid-template-columns: repeat(auto-fit, minmax(300px,500px));
 }
+.homegrid {
+    grid-template-columns: 2fr 1fr;
+}
+.gallery {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+.weather {
+    grid-row: 3/4;
+}
+.weather, .weather2 {
+    grid-column: 1/2;
+
+}
+.weather2 {
+    grid-row: 4/5;
+}
+.feedback {
+    display: block;
+}
 }

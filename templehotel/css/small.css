@@ -134,13 +134,16 @@ body ul {
   -ms-border-radius: 5px 5px 5px 5px;
   -o-border-radius: 5px 5px 5px 5px;
 }
+.allcolumn {
+  grid-column: 1/-1;
+}
 /* .noborder {
   border-radius: none;
   border: transparent;
 
 } */
 header {
-  grid-template-columns: 40px 2fr 1fr 0.5fr;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
 }
 .social {
   grid-column: 4/5;
@@ -270,19 +273,7 @@ footer {
   display: flex;
   flex-direction: column;
 }
-/* .visually-hidden {
-  border-width: 0 !important;
-  clip: rect(1px, 1px, 1px, 1px) !important;
-  height: 1px !important;
-  overflow: hidden !important;
-  padding: 0 !important;
-  position: absolute;
-  white-space: nowrap !important;
-  width: 1px !important;
-} */
-/* .label {
-  display: inline-block;
-} */
+
 .label input,
 .label textarea {
   /* position: relative; */
@@ -302,4 +293,41 @@ footer {
   margin: 1rem;
   width: 45px;
   height: 45px;
+}
+
+/* home layout */
+
+.action {
+  border: 1px solid;
+  /* padding: 1rem; */
+  /* margin: 0.5rem; */
+  box-shadow: 0 0 34px #333;
+}
+main picture img, .missiongal picture img {
+  /* border: 1px solid; */
+
+  max-width: 90%;
+  margin: .5rem auto;
+  /* padding: 1em; */
+  box-shadow: 0 0 34px #333;
+
+  /* justify-content: center; */
+}
+
+.weather {
+  /* align-items: center; */
+  
+  text-align: center;
+}
+.weather2, .weather {
+  border: 1px solid;
+  box-shadow: 0 0 34px #333;
+
+}
+.weather section, .weather2 section {
+  padding: 1rem;
+  border: 1px solid;
+}
+.feedback {
+  display: none;
 }
