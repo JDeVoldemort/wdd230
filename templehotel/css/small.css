@@ -62,7 +62,14 @@ textarea {
   text-align: center;
   align-items: center;
 }
-
+img {
+  height: auto;
+  filter: blur(0);
+  transition: filter 1.7s;
+}
+img[data-src] {
+  filter: blur(0.4em);
+}
 header,
 footer {
   background-color: var(--hfcolor);
