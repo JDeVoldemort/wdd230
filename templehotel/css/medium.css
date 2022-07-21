@@ -48,9 +48,7 @@
     grid-column: 2/3;
     grid-row: 2/4;
 }
-/* .templegal img {
-    width: 80%;
-} */
+
 .weather{
     grid-column: 1/3;
     grid-row: 4/5;

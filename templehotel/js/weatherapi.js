@@ -1,7 +1,5 @@
 const weathURL= 'https://api.openweathermap.org/data/2.5/onecall?lat=38.983120&lon=-77.095413&appid=01802bebd28e3e20567f3a60722e6fc9&units=imperial'
 
-// billings MT for testing
-// const weathURL= 'https://api.openweathermap.org/data/2.5/onecall?lat=45.787636&lon=-108.489304&appid=01802bebd28e3e20567f3a60722e6fc9&units=imperial'
 const currentTemp = document.querySelector('#temp');
 const temphA = document.querySelector('.temph1');
 const temphB = document.querySelector('.temph2');
@@ -24,7 +22,6 @@ const wday1 = document.querySelector('.wday1');
 const wday2 = document.querySelector('.wday2');
 const wday3 = document.querySelector('.wday3');
 const weatherIcon = document.querySelector('#weathericon');
-// let week = [1,2,3]
 let days = {
   0: 'Sunday',
   1: 'Monday',
@@ -39,7 +36,6 @@ async function apiFetch() {
       const response = await fetch(weathURL);
       if (response.ok) {
         const data = await response.json();
-        console.table(data);
 
         displayResults(data);
       } else {
@@ -83,7 +79,7 @@ async function apiFetch() {
     humid.innerHTML = `Humidity<strong> ${weatherData.current.humidity.toFixed(0)}</strong>%`;
     
 
-//   Still need to Change days on forcast using todays date
+
     temphA.innerHTML = `<strong>${weatherData.daily[1].temp.max.toFixed(0)}</strong>`;
     temphB.innerHTML = `<strong>${weatherData.daily[2].temp.max.toFixed(0)}</strong>`;
     temphC.innerHTML = `<strong>${weatherData.daily[3].temp.max.toFixed(0)}</strong>`;

@@ -17,8 +17,6 @@ if (typeof (window.localStorage.getItem(`darkmode`)) == 'undefined') {
     main.classList.toggle('dark');
     if ((window.localStorage.getItem(`darkmode`))=='0') {
         window.localStorage.setItem(`darkmode`,'1');
-   //  console.log(storage);
-
         }
     else {
         window.localStorage.setItem(`darkmode`, '0');

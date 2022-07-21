@@ -21,6 +21,3 @@ let lastmodif = new Date(document.lastModified).toLocaleDateString(
   options
 );
 document.querySelector(".currentdate").textContent = lastmodif;
-
-// document.querySelector("#todaydate").textContent =
-//   new Date().toLocaleDateString("en-UK", optionsB);
